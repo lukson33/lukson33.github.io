@@ -91,7 +91,7 @@ nav {
   transition: 0.2s all;
 }
 
-.no-touch .nav-li:hover .nav-a:after {
+.nav-li:hover .nav-a:after {
   width: 100%;
 }
 
@@ -325,12 +325,12 @@ header {
   transition: all 0.3s;
 }
 
-.no-touch .header-btn:hover {
+.header-btn:hover {
   background-color: rgb(24, 24, 24);
   color: rgb(179, 179, 179);
 }
 
-.no-touch .arrow-btn:hover .arrow {
+.arrow-btn:hover .arrow {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -434,7 +434,7 @@ header {
   transition: 0.3s all;
 }
 
-.no-touch .boxes-btn:hover {
+.boxes-btn:hover {
   -webkit-transform: translateY(-5px);
   -ms-transform: translateY(-5px);
   transform: translateY(-5px);
@@ -511,7 +511,7 @@ span {
   font-weight: 700;
 }
 
-.no-touch .btn-reserve:hover {
+.btn-reserve:hover {
   background-color: rgb(192, 192, 192);
   color: rgb(32, 32, 32);
 }
@@ -606,7 +606,7 @@ span {
   transition: 0.3s all;
 }
 
-.no-touch .discover-btn:hover {
+.discover-btn:hover {
   color: rgb(196, 196, 196);
   border: 2px solid rgb(196, 196, 196);
 }
@@ -987,7 +987,7 @@ footer {
   transition: 0.3s all ease;
 }
 
-.no-touch .footer-a:hover {
+.footer-a:hover {
   -webkit-transform: scale(1.25);
   -ms-transform: scale(1.25);
   transform: scale(1.25);
