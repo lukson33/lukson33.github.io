@@ -30,10 +30,6 @@
 //   console.log("not-active");
 // }
 
-if ("ontouchstart" in document) {
-  Y.one("body").removeClass("no-touch");
-}
-
 const navSlide = () => {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-links");
