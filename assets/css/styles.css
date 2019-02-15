@@ -483,7 +483,7 @@ span {
   }
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   .header-h1 {
     font-size: 6rem;
   }
@@ -496,7 +496,7 @@ span {
   .header-btn {
     font-size: 2.5rem;
   }
-}
+} */
 
 /*BOXES */
 
@@ -529,7 +529,7 @@ span {
     justify-content: center;
   }
 }
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   .boxes-content {
     height: 100%;
   }
@@ -543,7 +543,7 @@ span {
     font-size: 1.6rem;
     padding: 0.8rem;
   }
-}
+} */
 
 /*INFO */
 @media screen and (max-width: 500px) {
@@ -570,7 +570,7 @@ span {
 }
 
 @media screen and (max-width: 400px) {
-  .discover-h2 {
+  /* .discover-h2 {
     font-size: 3.7rem;
     margin-bottom: 2rem;
   }
@@ -581,7 +581,7 @@ span {
   .discover-btn {
     font-size: 2rem;
     padding: 1rem 2rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 315px) {
@@ -603,6 +603,45 @@ span {
 }
 
 /* HEIGHT */
+@media screen and (max-height: 650px) {
+  .discover-h2 {
+    font-size: 3.7rem;
+    margin-bottom: 2rem;
+  }
+  .discover-p {
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+  }
+  .discover-btn {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+  .boxes-content {
+    height: 100%;
+  }
+  .boxes-h2 {
+    font-size: 2.5rem;
+  }
+  .boxes-p {
+    font-size: 1.4rem;
+  }
+  .boxes-btn {
+    font-size: 1.6rem;
+    padding: 0.8rem;
+  }
+  .header-h1 {
+    font-size: 6rem;
+  }
+  .header-p {
+    font-size: 2.2rem;
+  }
+  .logo img {
+    width: 22%;
+  }
+  .header-btn {
+    font-size: 2.5rem;
+  }
+}
 
 /*********** MENU *********************************/
 .menu {
