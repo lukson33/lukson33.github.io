@@ -251,7 +251,7 @@ header {
 
 #boxes {
   background-color: rgb(235, 235, 222);
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .flex-container {
@@ -512,9 +512,6 @@ span {
   .boxes .flex-container:nth-child(2) .row {
     flex-direction: column-reverse;
   }
-  .boxes-image {
-    margin-bottom: 4rem;
-  }
   .boxes-content {
     width: 90%;
     height: 75%;
@@ -606,9 +603,6 @@ span {
 }
 
 /* HEIGHT */
-
-@media screen and (max-height: 650px) {
-}
 
 /*********** MENU *********************************/
 .menu {
