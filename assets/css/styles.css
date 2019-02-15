@@ -774,6 +774,9 @@ span {
   .header-content {
     top: 55%;
   }
+  .boxes-content {
+    padding: 2rem 0;
+  }
 }
 
 @media screen and (max-height: 650px) {
