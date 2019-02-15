@@ -483,6 +483,21 @@ span {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .header-h1 {
+    font-size: 6rem;
+  }
+  .header-p {
+    font-size: 2.2rem;
+  }
+  .logo img {
+    width: 22%;
+  }
+  .header-btn {
+    font-size: 2.5rem;
+  }
+}
+
 /*BOXES */
 
 @media screen and (max-width: 900px) {
@@ -517,11 +532,29 @@ span {
     justify-content: center;
   }
 }
+@media screen and (max-width: 400px) {
+  .boxes-content {
+    height: 100%;
+  }
+  .boxes-h2 {
+    font-size: 2.5rem;
+  }
+  .boxes-p {
+    font-size: 1.4rem;
+  }
+  .boxes-btn {
+    font-size: 1.6rem;
+    padding: 0.8rem;
+  }
+}
 
 /*INFO */
 @media screen and (max-width: 500px) {
   .info-content {
     height: 70vh;
+  }
+  .info-p {
+    margin-left: -2rem;
   }
 }
 
@@ -536,6 +569,21 @@ span {
   .discover-p {
     font-size: 2rem;
     margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .discover-h2 {
+    font-size: 3.7rem;
+    margin-bottom: 2rem;
+  }
+  .discover-p {
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+  }
+  .discover-btn {
+    font-size: 2rem;
+    padding: 1rem 2rem;
   }
 }
 
@@ -555,6 +603,11 @@ span {
   .discover-p {
     margin-bottom: 3rem;
   }
+}
+
+/* HEIGHT */
+
+@media screen and (max-height: 650px) {
 }
 
 /*********** MENU *********************************/
