@@ -56,10 +56,8 @@ const navSlide = () => {
           const delay = (link.style.animation = `navLinkFade 0.5s ease forwards ${index /
             11 +
             0.5}s`);
-          console.log(delay);
         }
       });
-      console.log("opened");
     } else if (!isOpen) {
       navLinks.forEach(link => {
         link.style.animation = "";
