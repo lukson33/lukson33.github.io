@@ -484,6 +484,10 @@ header {
   font-size: 5.1rem;
 }
 
+.reviews {
+  text-decoration: underline;
+}
+
 .grey-p {
   color: rgb(94, 94, 94);
   font-size: 1.8rem;
