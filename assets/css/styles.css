@@ -248,25 +248,25 @@ header {
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
-    url("https://source.unsplash.com/qE1jxYXiwOA");
+    url("../img/bgg1.jpg");
   background-image: -webkit-linear-gradient(
       left,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("https://source.unsplash.com/qE1jxYXiwOA");
+    url("../img/bgg1.jpg");
   background-image: -o-linear-gradient(
       left,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("https://source.unsplash.com/qE1jxYXiwOA");
+    url("../img/bgg1.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("https://source.unsplash.com/qE1jxYXiwOA");
+    url("../img/bgg1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -614,6 +614,8 @@ span {
   color: rgb(196, 196, 196);
   border: 2px solid rgb(196, 196, 196);
 }
+
+/* GALLERY */
 
 /* RESPONSIVE */
 
