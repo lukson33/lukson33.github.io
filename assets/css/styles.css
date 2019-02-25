@@ -1002,11 +1002,16 @@ footer {
 /* GALLERY */
 
 .gallery {
-  margin: 0 auto;
-  width: 90%;
+  background-color: rgb(235, 235, 227);
+}
+
+.gallery-divider {
+  padding: 4rem 0;
 }
 
 .gallery-container {
+  margin: 0 auto;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -1014,8 +1019,34 @@ footer {
   justify-content: center;
 }
 
+.gallery-heading {
+  font-size: 4rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.gallery-heading::after {
+  margin: 1rem auto 0 auto;
+  width: 14%;
+  display: block;
+  content: "";
+  border-bottom: 1px solid black;
+}
+
+.food-heading::after {
+  margin: 1rem auto 0 auto;
+  width: 22%;
+  display: block;
+  content: "";
+  border-bottom: 1px solid black;
+}
+
 .gallery-container img {
   padding: 1rem;
+}
+
+.gallery-h1 {
+  height: 15vh;
 }
 
 /* RESPOSNIVE MENU */
