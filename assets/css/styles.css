@@ -1001,6 +1001,17 @@ footer {
 
 /* GALLERY */
 
+.gallery {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  padding: 1.5rem;
+}
+
 /* RESPOSNIVE MENU */
 @media screen and (max-width: 1400px) {
   .image-h2 {
