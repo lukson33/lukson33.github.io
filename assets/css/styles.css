@@ -1002,14 +1002,20 @@ footer {
 /* GALLERY */
 
 .gallery {
-  display: flex;
   margin: 0 auto;
   width: 90%;
-  flex-wrap: wrap;
 }
 
-.gallery img {
-  padding: 1.5rem;
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-container img {
+  padding: 1rem;
 }
 
 /* RESPOSNIVE MENU */
