@@ -620,6 +620,12 @@ span {
 /* RESPONSIVE */
 
 /*HEADER */
+@media screen and (max-width: 600px) {
+  .header-content {
+    top: 45%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .header-h1 {
     font-size: 7rem;
