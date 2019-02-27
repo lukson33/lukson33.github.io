@@ -622,7 +622,7 @@ span {
 /*HEADER */
 @media screen and (max-width: 600px) {
   .header-content {
-    top: 45%;
+    top: 40%;
   }
 }
 
