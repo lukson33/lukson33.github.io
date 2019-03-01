@@ -248,25 +248,25 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/image00002.jpeg");
+    url("../img/image00002.jpg");
   background-image: -webkit-linear-gradient(
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/image00002.jpeg");
+    url("../img/image00002.jpg");
   background-image: -o-linear-gradient(
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/image00002.jpeg");
+    url("../img/image00002.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/image00002.jpeg");
+    url("../img/image00002.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -383,18 +383,18 @@ header {
 }
 
 .image-1 {
-  background-image: url("../img/image00007.jpeg");
+  background-image: url("../img/image00002.jpg");
   background-size: cover;
 }
 
 .image-2 {
-  background-image: url("../img/image00001.jpeg");
+  background-image: url("../img/image00002.jpg");
   background-size: cover;
   background-position: bottom;
 }
 
 .image-3 {
-  background-image: url("../img/image00003.jpeg");
+  background-image: url("../img/image00002.jpg");
   background-size: cover;
   background-position: bottom;
 }
