@@ -22,11 +22,14 @@
   <body>
     <header>
       <div class="header-content">
+        <a href="#eng" data-reload>English</a>
+        <a href="#rs" data-reload>Srpski</a>
+
         <h1 class="header-h1">Cornelius &amp; Cylinder.</h1>
         <p class="header-p">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         </p>
-        <a href="#" class="header-btn">VISE</a>
+        <a id="lang-more" href="#" class="header-btn">VISE</a>
         <a href="index.html#boxes" class="header-btn arrow-btn click-boxes"
           ><i class="arrow fa fa-long-arrow-right" aria-hidden="true"></i
         ></a>
@@ -37,14 +40,20 @@
 
         <ul class="nav-links">
           <li class="nav-li">
-            <a class="nav-a click-boxes" href="index.html#boxes">O NAMA</a>
+            <a id="lang-about" class="nav-a click-boxes" href="index.html#boxes"
+              >O NAMA</a
+            >
           </li>
-          <li class="nav-li"><a class="nav-a" href="menu.html">MENI</a></li>
           <li class="nav-li">
-            <a class="nav-a" href="gallery.html">GALERIJA</a>
+            <a id="lang-menu" class="nav-a" href="menu.html">MENI</a>
+          </li>
+          <li class="nav-li">
+            <a id="lang-gallery" class="nav-a" href="gallery.html">GALERIJA</a>
           </li>
           <li class="nav-li click-info">
-            <a class="nav-a" href="index.html#info">KONTAKT</a>
+            <a id="lang-contact" class="nav-a" href="index.html#info"
+              >KONTAKT</a
+            >
           </li>
         </ul>
 
@@ -61,7 +70,7 @@
         <div class="row">
           <div class="wow fadeInLeft boxes-image image-1"></div>
           <div class="wow fadeInRight boxes-content">
-            <h2 class="boxes-h2">TEKST</h2>
+            <h2 id="lang-text1" class="boxes-h2">TEKST</h2>
             <p class="boxes-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro in
               dignissimos quibusdam sapiente quisquam eligendi perferendis, non
@@ -196,6 +205,6 @@
     <script src="assets/js/anime.min.js"></script>
     <!-- <script type="text/javascript" src="assets/js/wow.js"></script> -->
     <script type="text/javascript" src="assets/js/app.js"></script>
-    <!-- <script type="text/javascript" src="assets/js/anime.js"></script> -->
+    <script type="text/javascript" src="assets/js/anime.js"></script>
   </body>
 </html>
