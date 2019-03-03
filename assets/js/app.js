@@ -135,8 +135,8 @@ const language = {
 };
 
 //Define language via window hash
-if (window.location.href) {
-  if (window.location.href === "lukson.github.io/index.html#eng") {
+if (window.location.hash) {
+  if (window.location.hash === "#eng") {
     document.getElementById("lang-more").textContent = language.eng.more;
     document.getElementById("lang-text1").textContent = language.eng.text1;
     document.getElementById("lang-about").textContent = language.eng.about;
@@ -146,11 +146,11 @@ if (window.location.href) {
   }
 }
 
-//Reload the page on button
+// Reload the page on button
 dataReload.forEach(data => {
   data.addEventListener("click", () => {
-    location.reload(true);
+    setTimeout(function() {
+      location.reload(true);
+    }, 500);
   });
 });
-
-console.log(location.href);
