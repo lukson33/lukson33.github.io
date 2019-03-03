@@ -149,8 +149,8 @@ const language = {
 };
 
 //Define language via window hash
-if (window.location.href) {
-  if (window.location.href === "#eng") {
+if (window.location.hash) {
+  if (window.location.hash === "#eng") {
     document.getElementById("lang-more").textContent = language.eng.more;
     document.getElementById("lang-text1").textContent = language.eng.text1;
     document.getElementById("lang-about").textContent = language.eng.about;
