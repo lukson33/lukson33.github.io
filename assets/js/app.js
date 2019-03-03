@@ -1,3 +1,16 @@
+$(document).ready(function() {
+  gotoHASH()
+};
+
+function gotoHASH() {
+  if (location.hash) {
+      if ( $.browser.webkit == false ) {
+          window.location.hash = location.hash;
+      } else {
+          window.location.href = location.hash;
+      }
+  }
+};
 /* REMOVE HOVER ON PHONES */
 if (screen.width < 800) {
   function hasTouch() {
