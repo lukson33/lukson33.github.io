@@ -1,3 +1,7 @@
+$(document).ready(function() {
+  gotoHASH();
+});
+
 function gotoHASH() {
   if (location.hash) {
     if ($.browser.webkit == false) {
@@ -7,11 +11,6 @@ function gotoHASH() {
     }
   }
 }
-
-$(document).ready(function() {
-  // executes when HTML-Document is loaded and DOM is ready
-  gotoHASH();
-});
 
 /* REMOVE HOVER ON PHONES */
 if (screen.width < 800) {
@@ -150,8 +149,8 @@ const language = {
 };
 
 //Define language via window hash
-if (window.location.hash) {
-  if (window.location.hash === "#eng") {
+if (window.location.href) {
+  if (window.location.href === "#eng") {
     document.getElementById("lang-more").textContent = language.eng.more;
     document.getElementById("lang-text1").textContent = language.eng.text1;
     document.getElementById("lang-about").textContent = language.eng.about;
