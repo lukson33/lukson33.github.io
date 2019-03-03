@@ -1,17 +1,3 @@
-$(document).ready(function() {
-  gotoHASH();
-});
-
-function gotoHASH() {
-  if (location.hash) {
-    if ($.browser.webkit == false) {
-      window.location.hash = location.hash;
-    } else {
-      window.location.href = location.hash;
-    }
-  }
-}
-
 /* REMOVE HOVER ON PHONES */
 if (screen.width < 800) {
   function hasTouch() {
@@ -149,8 +135,8 @@ const language = {
 };
 
 //Define language via window hash
-if (window.location.hash) {
-  if (window.location.hash === "#eng") {
+if (window.location.href) {
+  if (window.location.href === "lukson.github.io/index.html#eng") {
     document.getElementById("lang-more").textContent = language.eng.more;
     document.getElementById("lang-text1").textContent = language.eng.text1;
     document.getElementById("lang-about").textContent = language.eng.about;
@@ -166,3 +152,5 @@ dataReload.forEach(data => {
     location.reload(true);
   });
 });
+
+console.log(location.href);
