@@ -16,10 +16,36 @@
     <div class="logo menu-logo"><img src="assets/img/logo-krug.png" alt="" /></div>
 
     <ul class="nav-links">
-      <li class="nav-li"><a class="nav-a" href="index.html">NASLOVNA</a></li>
-      <li class="nav-li"><a class="nav-a" href="">O NAMA</a></li>
-      <li class="nav-li"><a class="nav-a" href="gallery.html">GALERIJA</a></li>
-      <li class="nav-li"><a class="nav-a" href="index.html#info">KONTAKT</a></li>
+      <li class="nav-li">
+        <a id="lang-main" class="nav-a" href="index.html"
+          >NASLOVNA</a
+        >
+      </li>
+      <li class="nav-li">
+        <a id="lang-about" class="nav-a" href="index.html#boxes">O NAMA</a>
+      </li>
+      <li class="nav-li">
+        <a id="lang-gallery" class="nav-a" href="gallery.html">GALERIJA</a>
+      </li>
+      <li class="nav-li click-info">
+        <a id="lang-contact" class="nav-a" href="index.html#info"
+          >KONTAKT</a
+        >
+      </li>
+      <ul>
+        <li class="nav-li li-flag">
+          <a href="#eng" data-reload>
+            <span
+              ><img class="flag" src="assets/img/flag-gb.png" alt=""/></span
+          ></a>
+        </li>
+        <li class="nav-li li-flag">
+          <a href="#rs" data-reload
+            ><span
+              ><img class="flag" src="assets/img/flag-rs.png" alt=""/></span
+          ></a>
+        </li>
+      </ul>
     </ul>
 
     <div class="burger menu-burger">
@@ -31,10 +57,10 @@
 
   <section class="menu">
     <div class="menu-image">
-      <h2 class="image-h2">GLAVNA JELA</h2>
+      <h2 class="image-h2 mainDishes">GLAVNA JELA</h2>
     </div>
     <div class="menu-container">
-      <h2 class="menu-h2">GLAVNA JELA</h2>
+      <h2 class="menu-h2 mainDishes">GLAVNA JELA</h2>
       <div class="menu-row">
         <div class="col">
           <div class="menu-item">
@@ -602,12 +628,10 @@
     </div>
   </footer>
 
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-  <script src="assets/js/anime.min.js"></script>
-  <script type="text/javascript" src="assets/js/wow.js"></script>
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
+  <script src="assets/js/anime.min.js"></script>
+  
 </body>
 
 </html>
