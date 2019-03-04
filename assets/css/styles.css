@@ -59,7 +59,8 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: center;
+  -webkit-box-pack: center;
+  justify-content: space-around;
   width: 35%;
 }
 
@@ -125,13 +126,13 @@ nav {
 
 /*RESPONSIVE NAV */
 
-@media screen and (max-width: 1224px) {
+@media screen and (max-width: 1500px) {
   .nav-links {
     width: 55%;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .nav-links {
     position: absolute;
     right: 0px;
@@ -149,9 +150,9 @@ nav {
     -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
-    -webkit-transition: 0.5s all cubic-bezier(0.86, 0.01, 1, 1.01);
-    -o-transition: 0.5s all cubic-bezier(0.86, 0.01, 1, 1.01);
-    transition: 0.5s all cubic-bezier(0.86, 0.01, 1, 1.01);
+    -webkit-transition: 0.4s all cubic-bezier(0.78, 0.01, 1, 0.31);
+    -o-transition: 0.4s all cubic-bezier(0.78, 0.01, 1, 0.31);
+    transition: 0.4s all cubic-bezier(0.78, 0.01, 1, 0.31);
   }
 
   .flag {
@@ -169,6 +170,12 @@ nav {
   .nav-a {
     color: rgb(219, 219, 219);
     font-size: 3rem;
+  }
+
+  .nav-links {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .nav-links li {
@@ -275,6 +282,22 @@ header {
       rgba(12, 12, 12, 0.7)
     ),
     url("../img/image00002.jpg");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/image00002.jpg");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/image00002.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
@@ -299,6 +322,7 @@ header {
 
 .header-h1 {
   letter-spacing: 1px;
+  text-shadow: 6px 6px 2px rgb(22, 22, 22);
   font-size: 9rem;
   color: rgb(179, 179, 179);
   font-family: "Merienda One", cursive;
@@ -337,6 +361,8 @@ header {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
@@ -569,25 +595,41 @@ span {
       from(rgba(10, 10, 10, 0.8)),
       to(rgba(12, 12, 12, 0.8))
     ),
-    url("../img/image00008.jpeg");
+    url("../img/image00002.jpg");
   background-image: -webkit-linear-gradient(
       left,
       rgba(10, 10, 10, 0.8),
       rgba(12, 12, 12, 0.8)
     ),
-    url("../img/image00008.jpeg");
+    url("../img/image00002.jpg");
   background-image: -o-linear-gradient(
       left,
       rgba(10, 10, 10, 0.8),
       rgba(12, 12, 12, 0.8)
     ),
-    url("../img/image00008.jpeg");
+    url("../img/image00002.jpg");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.8)),
+      to(rgba(12, 12, 12, 0.8))
+    ),
+    url("../img/image00002.jpg");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.8)),
+      to(rgba(12, 12, 12, 0.8))
+    ),
+    url("../img/image00002.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.8),
       rgba(12, 12, 12, 0.8)
     ),
-    url("../img/image00008.jpeg");
+    url("../img/image00002.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -886,6 +928,22 @@ span {
       rgba(12, 12, 12, 0.849)
     ),
     url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("https://source.unsplash.com/qE1jxYXiwOA");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
@@ -1032,10 +1090,20 @@ footer {
 .gallery-container {
   margin: 0 auto;
   width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
