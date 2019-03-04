@@ -91,6 +91,15 @@ nav {
   transition: 0.2s all;
 }
 
+.flag {
+  width: 25px;
+  margin-top: 5px;
+}
+
+.li-flag {
+  display: inline-block;
+}
+
 .nav-li:hover .nav-a:after {
   width: 100%;
 }
@@ -142,6 +151,10 @@ nav {
     -webkit-transition: 0.5s all cubic-bezier(0.86, 0.01, 1, 1.01);
     -o-transition: 0.5s all cubic-bezier(0.86, 0.01, 1, 1.01);
     transition: 0.5s all cubic-bezier(0.86, 0.01, 1, 1.01);
+  }
+
+  .flag {
+    margin-top: 0;
   }
 
   .links {
