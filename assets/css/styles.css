@@ -59,7 +59,7 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: flex-start;
+  justify-content: center;
   width: 35%;
 }
 
@@ -173,7 +173,7 @@ nav {
 
   .nav-links li {
     opacity: 0;
-    padding: 5rem;
+    padding: 3.5rem;
   }
 
   .burger {
