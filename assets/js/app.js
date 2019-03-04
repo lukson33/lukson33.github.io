@@ -28,6 +28,7 @@ if (screen.width < 800) {
   }
 }
 
+/* NAVIGATION ANIMATION */
 const navSlide = () => {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-links");
@@ -51,8 +52,8 @@ const navSlide = () => {
           link.style.animation = "";
         } else {
           const delay = (link.style.animation = `navLinkFade 0.5s ease forwards ${index /
-            11 +
-            0.5}s`);
+            14 +
+            0.4}s`);
         }
       });
     } else if (!isOpen) {
@@ -130,19 +131,44 @@ const language = {
     about: "ABOUT US",
     menu: "MENU",
     gallery: "GALLERY",
-    contact: "CONTACT"
+    contact: "CONTACT",
+    main: "MAIN PAGE",
+    mainDishes: "MAIN DISHES"
   }
 };
 
-//Define language via window hash
-if (window.location.hash) {
-  if (window.location.hash === "#eng") {
-    document.getElementById("lang-more").textContent = language.eng.more;
-    document.getElementById("lang-text1").textContent = language.eng.text1;
-    document.getElementById("lang-about").textContent = language.eng.about;
-    document.getElementById("lang-menu").textContent = language.eng.menu;
-    document.getElementById("lang-gallery").textContent = language.eng.gallery;
-    document.getElementById("lang-contact").textContent = language.eng.contact;
+//Check if on main page
+if (window.location.href.indexOf("index") > -1) {
+  //Define language via window hash
+  if (window.location.hash) {
+    if (window.location.hash === "#eng") {
+      document.getElementById("lang-more").textContent = language.eng.more;
+      document.getElementById("lang-text1").textContent = language.eng.text1;
+      document.getElementById("lang-about").textContent = language.eng.about;
+      document.getElementById("lang-menu").textContent = language.eng.menu;
+      document.getElementById("lang-gallery").textContent =
+        language.eng.gallery;
+      document.getElementById("lang-contact").textContent =
+        language.eng.contact;
+    }
+  }
+}
+
+//Check if on menu page
+if (window.location.href.indexOf("menu") > -1) {
+  //Define language via window hash
+  if (window.location.hash) {
+    if (window.location.hash === "#eng") {
+      document.getElementById("lang-main").textContent = language.eng.main;
+      document.getElementById("lang-about").textContent = language.eng.about;
+      document.getElementById("lang-gallery").textContent =
+        language.eng.gallery;
+      document.getElementById("lang-contact").textContent =
+        language.eng.contact;
+      document.querySelectorAll(".mainDishes").forEach(dish => {
+        dish.textContent = language.eng.mainDishes;
+      });
+    }
   }
 }
 
