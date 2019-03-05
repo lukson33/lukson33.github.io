@@ -7,10 +7,6 @@
   box-sizing: inherit;
 }
 
-.overflow {
-  overflow: hidden;
-}
-
 html,
 body {
   font-family: "K2D", sans-serif;
