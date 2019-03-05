@@ -56,10 +56,18 @@ const navSlide = () => {
             0.4}s`);
         }
       });
+      //Prevent scrolling
+      $("body").css({ overflow: "hidden" });
+      $(document).bind("scroll", function() {
+        window.scrollTo(0, 0);
+      });
     } else if (!isOpen) {
       navLinks.forEach(link => {
         link.style.animation = "";
       });
+      //Enable scrolling again
+      $(document).unbind("scroll");
+      $("body").css({ overflow: "visible" });
     }
 
     navLinks.forEach(link => {
