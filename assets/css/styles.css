@@ -666,13 +666,6 @@ span {
 
 /* RESPONSIVE */
 
-/*HEADER */
-/* @media screen and (max-width: 600px) {
-  .header-content {
-    top: 45%;
-  }
-} */
-
 @media screen and (max-width: 500px) {
   .header-h1 {
     font-size: 7rem;
@@ -710,6 +703,7 @@ span {
 } */
 
 /*BOXES */
+
 
 @media screen and (max-width: 900px) {
   .flex-container {
@@ -753,6 +747,12 @@ span {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header-content {
+    top: 45%;
   }
 }
 
@@ -821,9 +821,9 @@ span {
 
 /* HEIGHT */
 @media screen and (max-height: 600px) {
-  .header-content {
+  /* .header-content {
     top: 55%;
-  }
+  } */
   .boxes-content {
     padding: 2rem 0;
   }
