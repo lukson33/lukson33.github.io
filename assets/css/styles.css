@@ -480,8 +480,6 @@ header {
   transform: translateY(-5px);
 }
 
-
-
 /* INFO */
 
 .info-row {
@@ -687,6 +685,15 @@ span {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .header-h1 {
+    font-size: 5rem !important;
+  }
+  .header-content {
+    top: 50%;
+  }
+}
+
 /* @media screen and (max-width: 400px) {
   .header-h1 {
     font-size: 6rem;
@@ -703,7 +710,6 @@ span {
 } */
 
 /*BOXES */
-
 
 @media screen and (max-width: 900px) {
   .flex-container {
@@ -781,18 +787,9 @@ span {
 }
 
 @media screen and (max-width: 400px) {
-  /* .discover-h2 {
-    font-size: 3.7rem;
-    margin-bottom: 2rem;
+  #discover {
+    height: 160vh;
   }
-  .discover-p {
-    font-size: 1.7rem;
-    margin-bottom: 3rem;
-  }
-  .discover-btn {
-    font-size: 2rem;
-    padding: 1rem 2rem;
-  } */
 }
 
 @media screen and (max-width: 315px) {
