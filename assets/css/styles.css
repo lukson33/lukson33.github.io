@@ -312,7 +312,7 @@ header {
 
 .header-content {
   position: absolute;
-  top: 50%;
+  top: 49%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -750,12 +750,6 @@ span {
   }
 }
 
-@media screen and (max-width: 550px) {
-  .header-content {
-    top: 48%;
-  }
-}
-
 /*INFO */
 @media screen and (max-width: 500px) {
   .info-content {
@@ -821,9 +815,6 @@ span {
 
 /* HEIGHT */
 @media screen and (max-height: 600px) {
-  /* .header-content {
-    top: 55%;
-  } */
   .boxes-content {
     padding: 2rem 0;
   }
