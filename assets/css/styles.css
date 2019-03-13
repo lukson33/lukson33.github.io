@@ -580,7 +580,7 @@ span {
 /* DISCOVER */
 
 #discover {
-  height: 62vh;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -590,65 +590,54 @@ span {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(10, 10, 10, 0.8)),
-      to(rgba(12, 12, 12, 0.8))
-    ),
-    url("../img/image00002.jpg");
-  background-image: -webkit-linear-gradient(
-      left,
-      rgba(10, 10, 10, 0.8),
-      rgba(12, 12, 12, 0.8)
-    ),
-    url("../img/image00002.jpg");
-  background-image: -o-linear-gradient(
-      left,
-      rgba(10, 10, 10, 0.8),
-      rgba(12, 12, 12, 0.8)
-    ),
-    url("../img/image00002.jpg");
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(10, 10, 10, 0.8)),
-      to(rgba(12, 12, 12, 0.8))
-    ),
-    url("../img/image00002.jpg");
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(10, 10, 10, 0.8)),
-      to(rgba(12, 12, 12, 0.8))
-    ),
-    url("../img/image00002.jpg");
-  background-image: linear-gradient(
-      90deg,
-      rgba(10, 10, 10, 0.8),
-      rgba(12, 12, 12, 0.8)
-    ),
-    url("../img/image00002.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .discover-content {
-  width: 65%;
   text-align: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.discover-item {
+  padding: 0 4rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.discover-food {
+  background-image: linear-gradient(
+      90deg,
+      rgba(10, 10, 10, 0.7),
+      rgba(12, 12, 12, 0.7)
+    ),
+    url("../img/image00002.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.discover-drinks {
+  background-image: linear-gradient(
+      90deg,
+      rgba(10, 10, 10, 0.7),
+      rgba(12, 12, 12, 0.7)
+    ),
+    url("../img/image00005.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
 .discover-h2 {
   font-size: 5.8rem;
   color: white;
   margin-bottom: 4rem;
+  font-family: "Merienda One", cursive;
 }
 
 .discover-p {
@@ -766,21 +755,6 @@ span {
     justify-content: center;
   }
 }
-/* @media screen and (max-width: 400px) {
-  .boxes-content {
-    height: 100%;
-  }
-  .boxes-h2 {
-    font-size: 2.5rem;
-  }
-  .boxes-p {
-    font-size: 1.4rem;
-  }
-  .boxes-btn {
-    font-size: 1.6rem;
-    padding: 0.8rem;
-  }
-} */
 
 /*INFO */
 @media screen and (max-width: 500px) {
@@ -793,10 +767,16 @@ span {
 }
 
 /* DISCOVER */
-@media screen and (max-width: 600px) {
-  .discover-content {
-    width: 90%;
+@media screen and (max-width: 900px) {
+  #discover {
+    height: 140vh;
   }
+  .discover-content {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .discover-h2 {
     font-size: 4.8rem;
   }
@@ -850,9 +830,6 @@ span {
 }
 
 @media screen and (max-height: 650px) {
-  #discover {
-    height: 70vh;
-  }
   .discover-h2 {
     font-size: 3.7rem;
     margin-bottom: 1.5rem;
