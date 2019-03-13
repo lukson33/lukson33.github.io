@@ -480,6 +480,8 @@ header {
   transform: translateY(-5px);
 }
 
+
+
 /* INFO */
 
 .info-row {
@@ -899,9 +901,26 @@ span {
 }
 
 .menu-container {
+  padding: 4rem 0;
   width: 70%;
   margin: 0 auto;
-  padding: 3rem 0;
+}
+
+.menu-nav-go {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+
+.menu-nav-a-on {
+  font-weight: 700;
+  text-decoration: underline;
+  margin-right: 5rem;
+}
+
+.menu-nav-a {
+  font-size: 1.7rem;
 }
 
 .menu-image {
