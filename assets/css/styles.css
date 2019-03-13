@@ -974,6 +974,24 @@ span {
   background-repeat: no-repeat;
 }
 
+.menu-image-beer {
+  background-image: linear-gradient(
+      90deg,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("https://source.unsplash.com/LVE8S1FozK0");
+}
+
+.menu-image-coffee {
+  background-image: linear-gradient(
+      90deg,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("https://source.unsplash.com/x_HpmxR_uZo");
+}
+
 .menu-h2 {
   text-align: center;
   font-size: 4rem;
