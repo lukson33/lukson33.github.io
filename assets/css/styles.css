@@ -10,6 +10,7 @@
 html,
 body {
   font-family: "K2D", sans-serif;
+  letter-spacing: 1px;
   overflow-x: hidden;
 }
 
@@ -115,8 +116,29 @@ nav {
   transform: scale(1.2);
 }
 
-.burger div {
+/* .burger div {
   width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  -webkit-transition: all 0.3s cubic-bezier(0.86, 0.01, 1, 1.01);
+  -o-transition: all 0.3s cubic-bezier(0.86, 0.01, 1, 1.01);
+  transition: all 0.3s cubic-bezier(0.86, 0.01, 1, 1.01);
+} */
+
+.line1,
+.line3 {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  -webkit-transition: all 0.3s cubic-bezier(0.86, 0.01, 1, 1.01);
+  -o-transition: all 0.3s cubic-bezier(0.86, 0.01, 1, 1.01);
+  transition: all 0.3s cubic-bezier(0.86, 0.01, 1, 1.01);
+}
+
+.line2 {
+  width: 25px;
   height: 3px;
   background-color: #fff;
   margin: 5px;
@@ -531,6 +553,7 @@ header {
 
 .info-h2 {
   font-size: 5.1rem;
+  font-family: "Merienda One", cursive;
 }
 
 .reviews {
