@@ -299,6 +299,14 @@ header {
       to(rgba(12, 12, 12, 0.7))
     ),
     url("../img/image00002.jpg");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/image00002.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
@@ -596,7 +604,12 @@ span {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
   height: 100%;
 }
@@ -604,13 +617,42 @@ span {
 .discover-item {
   padding: 0 4rem;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .discover-food {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/image00002.jpg");
+  background-image: -webkit-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.7),
+      rgba(12, 12, 12, 0.7)
+    ),
+    url("../img/image00002.jpg");
+  background-image: -o-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.7),
+      rgba(12, 12, 12, 0.7)
+    ),
+    url("../img/image00002.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
@@ -622,6 +664,26 @@ span {
 }
 
 .discover-drinks {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/image00002.jpg");
+  background-image: -webkit-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.7),
+      rgba(12, 12, 12, 0.7)
+    ),
+    url("../img/image00002.jpg");
+  background-image: -o-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.7),
+      rgba(12, 12, 12, 0.7)
+    ),
+    url("../img/image00002.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
@@ -773,6 +835,9 @@ span {
     height: 140vh;
   }
   .discover-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 }
@@ -873,7 +938,11 @@ span {
 }
 
 .menu-nav-go {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 3rem;
   padding: 2rem;
@@ -929,6 +998,14 @@ span {
       to(rgba(12, 12, 12, 0.849))
     ),
     url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("https://source.unsplash.com/qE1jxYXiwOA");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
@@ -941,6 +1018,26 @@ span {
 }
 
 .menu-image-beer {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("https://source.unsplash.com/LVE8S1FozK0");
+  background-image: -webkit-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("https://source.unsplash.com/LVE8S1FozK0");
+  background-image: -o-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("https://source.unsplash.com/LVE8S1FozK0");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
@@ -950,6 +1047,26 @@ span {
 }
 
 .menu-image-coffee {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("https://source.unsplash.com/x_HpmxR_uZo");
+  background-image: -webkit-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("https://source.unsplash.com/x_HpmxR_uZo");
+  background-image: -o-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("https://source.unsplash.com/x_HpmxR_uZo");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
