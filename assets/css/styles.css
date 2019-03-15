@@ -41,6 +41,7 @@ nav {
   align-items: center;
   height: 15vh;
   width: 100%;
+  z-index: 150;
 }
 
 .logo {
@@ -1040,7 +1041,6 @@ footer {
   background-color: rgb(70, 70, 70);
   height: 24rem;
   position: relative;
-  z-index: -1;
 }
 
 .footer-logos {
