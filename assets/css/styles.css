@@ -1040,6 +1040,7 @@ footer {
   background-color: rgb(70, 70, 70);
   height: 24rem;
   position: relative;
+  z-index: -1;
 }
 
 .footer-logos {
