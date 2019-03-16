@@ -780,21 +780,6 @@ span {
   }
 }
 
-/* @media screen and (max-width: 400px) {
-  .header-h1 {
-    font-size: 6rem;
-  }
-  .header-p {
-    font-size: 2.2rem;
-  }
-  .logo img {
-    width: 22%;
-  }
-  .header-btn {
-    font-size: 2.5rem;
-  }
-} */
-
 /*BOXES */
 
 @media screen and (max-width: 900px) {
@@ -947,6 +932,105 @@ span {
   .info-content {
     padding: 4rem 0;
   }
+}
+
+/*********** ABOUT *********************************/
+.body-about {
+  background-color: grey;
+}
+.about-image {
+  position: relative;
+  background-attachment: fixed;
+  height: 45vh;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-image: -webkit-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-image: -o-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-image: linear-gradient(
+      90deg,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.abs-container {
+  width: 75%;
+  margin: -50px auto -50px auto;
+  z-index: 100;
+  -webkit-box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+  padding: 7rem;
+  text-align: center;
+}
+
+.abs-h2 {
+  font-size: 5rem;
+  margin-bottom: 5rem;
+}
+
+.abs-p {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 5rem;
+}
+
+.abs-img {
+  background-image: url("../img/image00002.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.about-footer {
+  z-index: -1;
 }
 
 /*********** MENU *********************************/
@@ -1335,5 +1419,37 @@ footer {
   }
   .col {
     width: 100%;
+  }
+}
+
+/* RESPONSIVE ABOUT */
+
+@media screen and (max-width: 700px) {
+  .abs-container {
+    padding: 5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .abs-container {
+    padding: 3rem;
+    margin: -30px auto -30px auto;
+  }
+  .abs-h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .abs-p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .abs-container {
+    padding: 2rem;
+    width: 80%;
   }
 }
