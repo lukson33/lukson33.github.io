@@ -355,7 +355,6 @@ header {
 }
 
 .header-btn {
-  font-family: "Merienda One", cursive;
   display: inline-block;
   color: rgb(32, 32, 32);
   font-weight: 700;
@@ -474,7 +473,6 @@ header {
 }
 
 .boxes-h2 {
-  font-family: "Merienda One", cursive;
   font-size: 3rem;
 }
 
