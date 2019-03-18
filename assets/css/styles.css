@@ -709,6 +709,7 @@ span {
 
 .discover-h2 {
   font-size: 5.8rem;
+  text-shadow: 6px 6px 2px rgb(22, 22, 22);
   color: white;
   margin-bottom: 4rem;
   font-family: "Merienda One", cursive;
@@ -1220,6 +1221,7 @@ span {
 
 .image-h2 {
   font-family: "Merienda One", cursive;
+  text-shadow: 6px 6px 2px rgb(22, 22, 22);
   color: rgb(233, 233, 233);
   font-weight: 700;
   font-size: 5.5rem;
