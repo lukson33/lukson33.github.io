@@ -1040,6 +1040,13 @@ span {
 }
 
 .about-img-half {
+  background-attachment: fixed;
+  height: 45vh;
+  background-image: url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
   width: 100%;
   height: 65vh;
   z-index: -1;
@@ -1274,7 +1281,7 @@ span {
   display: flex;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  margin-top: 7rem;
+  margin: 7rem 0 4rem 0;
 }
 
 .col {
