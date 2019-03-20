@@ -321,7 +321,8 @@ header {
     url("../img/image00002.jpg");
   background-image: -webkit-gradient(
       linear,
-      left top, right top,
+      left top,
+      right top,
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
@@ -675,7 +676,8 @@ span {
     url("../img/image00002.jpg");
   background-image: -webkit-gradient(
       linear,
-      left top, right top,
+      left top,
+      right top,
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
@@ -713,7 +715,8 @@ span {
     url("../img/image00002.jpg");
   background-image: -webkit-gradient(
       linear,
-      left top, right top,
+      left top,
+      right top,
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
@@ -1000,7 +1003,8 @@ span {
     url("https://source.unsplash.com/qE1jxYXiwOA");
   background-image: -webkit-gradient(
       linear,
-      left top, right top,
+      left top,
+      right top,
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
@@ -1055,8 +1059,8 @@ span {
   display: flex;
   width: 95%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 0 auto;
 }
 
@@ -1089,14 +1093,14 @@ span {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 5rem;
   text-align: center;
 }
@@ -1193,7 +1197,8 @@ span {
     url("https://source.unsplash.com/qE1jxYXiwOA");
   background-image: -webkit-gradient(
       linear,
-      left top, right top,
+      left top,
+      right top,
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
@@ -1232,7 +1237,8 @@ span {
     url("https://source.unsplash.com/LVE8S1FozK0");
   background-image: -webkit-gradient(
       linear,
-      left top, right top,
+      left top,
+      right top,
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
@@ -1268,7 +1274,8 @@ span {
     url("https://source.unsplash.com/x_HpmxR_uZo");
   background-image: -webkit-gradient(
       linear,
-      left top, right top,
+      left top,
+      right top,
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
@@ -1328,7 +1335,7 @@ span {
 }
 
 .item-name {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
 }
 
 .item-price {
@@ -1353,7 +1360,7 @@ span {
 }
 
 .desc-p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .menu-nav {
@@ -1577,8 +1584,8 @@ footer {
   .about-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     width: 100%;
   }
   .about-content {
