@@ -319,6 +319,13 @@ header {
       to(rgba(12, 12, 12, 0.7))
     ),
     url("../img/image00002.jpg");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/image00002.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
@@ -666,6 +673,13 @@ span {
       rgba(12, 12, 12, 0.7)
     ),
     url("../img/image00002.jpg");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/image00002.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
@@ -695,6 +709,13 @@ span {
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
+    ),
+    url("../img/image00002.jpg");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
     ),
     url("../img/image00002.jpg");
   background-image: linear-gradient(
@@ -977,6 +998,13 @@ span {
       to(rgba(12, 12, 12, 0.849))
     ),
     url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("https://source.unsplash.com/qE1jxYXiwOA");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
@@ -994,7 +1022,6 @@ span {
   margin: -50px auto -50px auto;
   z-index: 100;
   -webkit-box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.75);
   background-color: #fff;
   padding: 7rem;
@@ -1023,9 +1050,13 @@ span {
 }
 
 .about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 95%;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
 }
 
@@ -1035,7 +1066,6 @@ span {
   margin-left: -5rem;
   z-index: 100;
   -webkit-box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.75);
 }
 
@@ -1054,10 +1084,19 @@ span {
 }
 
 .about-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 5rem;
   text-align: center;
 }
@@ -1152,6 +1191,13 @@ span {
       to(rgba(12, 12, 12, 0.849))
     ),
     url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("https://source.unsplash.com/qE1jxYXiwOA");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
@@ -1184,6 +1230,13 @@ span {
       rgba(12, 12, 12, 0.849)
     ),
     url("https://source.unsplash.com/LVE8S1FozK0");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("https://source.unsplash.com/LVE8S1FozK0");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
@@ -1211,6 +1264,13 @@ span {
       left,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
+    ),
+    url("https://source.unsplash.com/x_HpmxR_uZo");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
     ),
     url("https://source.unsplash.com/x_HpmxR_uZo");
   background-image: linear-gradient(
@@ -1515,7 +1575,10 @@ footer {
 
 @media screen and (max-width: 650px) {
   .about-container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
   }
   .about-content {
