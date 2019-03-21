@@ -133,7 +133,27 @@ const language = {
     gallery: "GALLERY",
     contact: "CONTACT",
     main: "MAIN PAGE",
-    mainDishes: "MAIN DISHES"
+    mainDishes: "MAIN DISHES",
+    restaurant: "RESTAURANT",
+    caffeBar: "CAFFE-BAR",
+    name1: "BEEF CHEESEBURGER",
+    name4: "BEEFSTEAK ON GRILL (300g)",
+    name5: "BUFFALO WINGS (500g)",
+    name6: "MARINATED PORK RIBS (700g)",
+    name7: "TANDOORI CHICKEN",
+    desc1:
+      "beef meat, cheddar cheese, caramelized onions, pickles, iceberg salad, tomato, bacon /fries, onion rings/",
+    desc2:
+      "angus beef meat, emmentaler cheese, red onion, mushrooms, iceberg salad, tomato /fries, onions rings",
+    desc3:
+      "chopped slowly baked pork meat in BBQ sauce, coleslaw salad /fries/",
+    desc4:
+      "angus beef meat, emmentaler cheese, red onion, mushrooms, iceberg salad, tomato /fries, onions rings",
+    desc5:
+      "chicken wings in spicy buffalo sauce, garlic bread, blue cheese sauce",
+    desc6:
+      "slowly baked, glazed pork ribs, sweet corn, coleslaw salad, potato wedges, BBQ sauce",
+    desc7: "dry marinated chicken breasts, curry rice with vegetables"
   }
 };
 
@@ -168,6 +188,21 @@ if (window.location.href.indexOf("menu") > -1) {
       document.querySelectorAll(".mainDishes").forEach(dish => {
         dish.textContent = language.eng.mainDishes;
       });
+      document.getElementById("restaurant").textContent =
+        language.eng.restaurant;
+      document.getElementById("caffeBar").textContent = language.eng.caffeBar;
+      document.getElementById("name1").textContent = language.eng.name1;
+      document.getElementById("name4").textContent = language.eng.name4;
+      document.getElementById("name5").textContent = language.eng.name5;
+      document.getElementById("name6").textContent = language.eng.name6;
+      document.getElementById("name7").textContent = language.eng.name7;
+      document.getElementById("desc1").textContent = language.eng.desc1;
+      document.getElementById("desc2").textContent = language.eng.desc2;
+      document.getElementById("desc3").textContent = language.eng.desc3;
+      document.getElementById("desc4").textContent = language.eng.desc4;
+      document.getElementById("desc5").textContent = language.eng.desc5;
+      document.getElementById("desc6").textContent = language.eng.desc6;
+      document.getElementById("desc7").textContent = language.eng.desc7;
     }
   }
 }
