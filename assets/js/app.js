@@ -148,6 +148,7 @@ const language = {
     sandwich: "SANDWICHES",
     side: "SIDE DISHES",
     desert: "DESERTS",
+    cakes: "CAKES",
     name1: "BEEF CHEESEBURGER",
     name4: "BEEFSTEAK ON GRILL (300g)",
     name5: "BUFFALO WINGS (500g)",
@@ -186,6 +187,10 @@ const language = {
     name50: "FOUR CHEESE SAUCE",
     name51: "BREAD (200g)",
     name53: "AMERICAN PANCAKES",
+    name54: "CAPRI CAKE",
+    name55: "CHOCOLATE RASPBERRY CAKE",
+    name56: "ORANGE JAFFA CAKE",
+    name57: "DUET HAZELNUT CAKE",
     desc1:
       "beef meat, cheddar cheese, caramelized onions, pickles, iceberg salad, tomato, bacon /fries, onion rings/",
     desc2:
@@ -282,6 +287,7 @@ if (window.location.href.indexOf("menu") > -1) {
       document.getElementById("sandwich").textContent = language.eng.sandwich;
       document.getElementById("salad").textContent = language.eng.salad;
       document.getElementById("side").textContent = language.eng.side;
+      document.getElementById("cakes").textContent = language.eng.cakes;
       document.getElementById("name1").textContent = language.eng.name1;
       document.getElementById("name4").textContent = language.eng.name4;
       document.getElementById("name5").textContent = language.eng.name5;
@@ -320,6 +326,10 @@ if (window.location.href.indexOf("menu") > -1) {
       document.getElementById("name50").textContent = language.eng.name50;
       document.getElementById("name51").textContent = language.eng.name51;
       document.getElementById("name53").textContent = language.eng.name53;
+      document.getElementById("name54").textContent = language.eng.name54;
+      document.getElementById("name55").textContent = language.eng.name55;
+      document.getElementById("name56").textContent = language.eng.name56;
+      document.getElementById("name57").textContent = language.eng.name57;
       document.getElementById("desc1").textContent = language.eng.desc1;
       document.getElementById("desc2").textContent = language.eng.desc2;
       document.getElementById("desc3").textContent = language.eng.desc3;
