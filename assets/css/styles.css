@@ -145,7 +145,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1100px) {
   .nav-links {
     position: absolute;
     right: 0px;
@@ -170,6 +170,10 @@ nav {
 
   .flag {
     margin-top: 0;
+  }
+
+  nav {
+    position: fixed;
   }
 
   .links {
@@ -1313,6 +1317,10 @@ span {
   transform: translate(-50%, -50%);
 }
 
+#between {
+  width: 70%;
+}
+
 .menu-item {
   margin-bottom: 1.5rem;
   display: -webkit-box;
@@ -1479,20 +1487,35 @@ footer {
     width: 70%;
   }
 }
+#between {
+  width: 90%;
+}
 
 @media screen and (max-width: 1000px) {
   .image-h2 {
     width: 90%;
   }
+  #between {
+    width: 120%;
+  }
+  .menu-container {
+    width: 90%;
+  }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
   .menu-logo {
     opacity: 0;
+  }
+  .menu-container {
+    width: 90%;
   }
   .menu-nav {
     z-index: 150;
     background-color: transparent;
+  }
+  #between {
+    width: 130%;
   }
 }
 
@@ -1519,7 +1542,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 900px) {
   .menu-container {
     width: 90%;
   }
@@ -1528,6 +1551,9 @@ footer {
   }
   .col {
     width: 100%;
+  }
+  #between {
+    width: 80%;
   }
 }
 
