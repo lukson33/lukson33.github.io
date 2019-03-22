@@ -147,7 +147,7 @@ const language = {
     steaks: "STEAKS",
     sandwich: "SANDWICHES",
     side: "SIDE DISHES",
-    desert: "DESERTS",
+    desert: "DESSERTS",
     cakes: "CAKES",
     name1: "BEEF CHEESEBURGER",
     name4: "BEEFSTEAK ON GRILL (300g)",
