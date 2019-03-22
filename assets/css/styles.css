@@ -331,6 +331,14 @@ header {
       to(rgba(12, 12, 12, 0.7))
     ),
     url("../img/2.jpg");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/2.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
@@ -688,6 +696,14 @@ span {
       to(rgba(12, 12, 12, 0.7))
     ),
     url("../img/5.png");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/5.png");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
@@ -717,6 +733,14 @@ span {
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
+    ),
+    url("../img/6.png");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
     ),
     url("../img/6.png");
   background-image: -webkit-gradient(
@@ -1015,6 +1039,14 @@ span {
       to(rgba(12, 12, 12, 0.849))
     ),
     url("../img/4.png");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/4.png");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
@@ -1209,12 +1241,105 @@ span {
       to(rgba(12, 12, 12, 0.849))
     ),
     url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("https://source.unsplash.com/qE1jxYXiwOA");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
     url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#main {
+  position: relative;
+  background-attachment: fixed;
+  height: 35vh;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/steak.png");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+#soupImg {
+  position: relative;
+  background-attachment: fixed;
+  height: 35vh;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.6)),
+      to(rgba(12, 12, 12, 0.6))
+    ),
+    url("../img/soup.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#saladImg {
+  position: relative;
+  background-attachment: fixed;
+  height: 35vh;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.75)),
+      to(rgba(12, 12, 12, 0.75))
+    ),
+    url("../img/salad.png");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+#nacho {
+  position: relative;
+  background-attachment: fixed;
+  height: 35vh;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/nachos.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#desert {
+  position: relative;
+  background-attachment: fixed;
+  height: 35vh;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/desert.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1239,6 +1364,14 @@ span {
       left,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
+    ),
+    url("https://source.unsplash.com/LVE8S1FozK0");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
     ),
     url("https://source.unsplash.com/LVE8S1FozK0");
   background-image: -webkit-gradient(
@@ -1276,6 +1409,14 @@ span {
       left,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
+    ),
+    url("https://source.unsplash.com/x_HpmxR_uZo");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
     ),
     url("https://source.unsplash.com/x_HpmxR_uZo");
   background-image: -webkit-gradient(
