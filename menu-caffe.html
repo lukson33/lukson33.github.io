@@ -1,651 +1,794 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cornelius &amp; Cylinder</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=K2D|Merienda+One"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>Cornelius &amp; Cylinder</title>
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <link href="https://fonts.googleapis.com/css?family=K2D:300,400,700" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/animate.css" />
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-</head>
+  <body>
+    <nav class="menu-nav">
+      <div class="logo menu-logo">
+        <img src="assets/img/logo-krug.png" alt="" />
+      </div>
 
-<body>
-  <nav class="menu-nav">
-    <div class="logo menu-logo"><img src="assets/img/logo-krug.png" alt="" /></div>
-
-    <ul class="nav-links">
-      <li class="nav-li">
-        <a id="lang-main" class="nav-a" href="index.html"
-          >NASLOVNA</a
-        >
-      </li>
-      <li class="nav-li">
-        <a id="lang-about" class="nav-a" href="index.html#boxes">O NAMA</a>
-      </li>
-      <li class="nav-li">
-        <a id="lang-gallery" class="nav-a" href="gallery.html">GALERIJA</a>
-      </li>
-      <li class="nav-li click-info">
-        <a id="lang-contact" class="nav-a" href="index.html#info"
-          >KONTAKT</a
-        >
-      </li>
-      <ul>
-        <li class="nav-li li-flag">
-          <a href="#eng" data-reload>
-            <span
-              ><img class="flag" src="assets/img/flag-gb.png" alt=""/></span
-          ></a>
+      <ul class="nav-links">
+        <li class="nav-li">
+          <a id="lang-main" class="nav-a" href="index.html">NASLOVNA</a>
         </li>
-        <li class="nav-li li-flag">
-          <a href="#rs" data-reload
-            ><span
-              ><img class="flag" src="assets/img/flag-rs.png" alt=""/></span
-          ></a>
+        <li class="nav-li">
+          <a id="lang-about" class="nav-a" href="index.html#boxes">O NAMA</a>
         </li>
+        <li class="nav-li">
+          <a id="lang-gallery" class="nav-a" href="gallery.html">GALERIJA</a>
+        </li>
+        <li class="nav-li click-info">
+          <a id="lang-contact" class="nav-a" href="index.html#info">KONTAKT</a>
+        </li>
+        <ul>
+          <li class="nav-li li-flag">
+            <a href="#eng" data-reload>
+              <span
+                ><img class="flag" src="assets/img/flag-gb.png" alt=""/></span
+            ></a>
+          </li>
+          <li class="nav-li li-flag">
+            <a href="#rs" data-reload
+              ><span
+                ><img class="flag" src="assets/img/flag-rs.png" alt=""/></span
+            ></a>
+          </li>
+        </ul>
       </ul>
-    </ul>
 
-    <div class="burger menu-burger">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
-    </div>
-  </nav>
-
-  <section class="menu">
-    <div class="menu-image menu-image-beer">
-      <h2 class="image-h2 mainDishes">PIVA</h2>
-    </div>
-    <div class="menu-container">
-      <div class="menu-nav-go">
-        <a href="#" class="menu-nav-a menu-nav-a-on">KAFE-BAR</a>
-        <a href="menu.html" class="menu-nav-a">RESTORAN</a>
+      <div class="burger menu-burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
       </div>
-      <h2 class="menu-h2 mainDishes">PIVA</h2>
-      <div class="menu-row">
-        <div class="col">
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">575</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                junece meso, cedar sir, karamelizovani luk, kiseli krastavcici, iceberg salata, paradajz, panceta
-                /pomfrit, pohovani luk/
-              </p>
-            </div>
-          </div>
+    </nav>
 
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">ANGUS BURGER SUPREME</p>
-              <p class="item-price">790</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Angus govedje meso, ementaler, crveni luk, pecurke, iceberg salata, paradajz /pomfrit, pohovani luk/
-              </p>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">PULLED PORK BURGER</p>
-              <p class="item-price">495</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                cepkano sporo peceno svinjsko meso u BBQ sosu, coleslaw salata /pomfrit/
-              </p>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">BUFFALO KRILCA</p>
-              <p class="item-price">545</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                pileca krilca u pikantnom buffalo sosu, garlic hleb, sos od plavog sira
-              </p>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-        </div>
+    <section class="menu">
+      <div class="menu-image menu-image-coffee">
+        <h2 class="image-h2">KAFA</h2>
       </div>
-    </div>
-  </section>
-
-  <section class="menu">
-    <div class="menu-image menu-image-coffee">
-      <h2 class="image-h2">KAFA</h2>
-    </div>
-    <div class="menu-container">
-      <h2 class="menu-h2">KAFA</h2>
-      <div class="menu-row">
-        <div class="col">
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
+      <div class="menu-container">
+        <div class="menu-nav-go">
+          <a href="#" class="menu-nav-a menu-nav-a-on">KAFE-BAR</a>
+          <a href="menu.html" class="menu-nav-a">RESTORAN</a>
+        </div>
+        <h2 class="menu-h2">KAFE</h2>
+        <div class="menu-row">
+          <div class="col">
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">ESPRESSO</p>
+                <p class="item-price">145</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
             </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
+
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">DUPLI ESPRESSO</p>
+                <p class="item-price">210</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">ESPRESSO SA MLEKOM</p>
+                <p class="item-price">165</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">MAKIJATO</p>
+                <p class="item-price">150</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">KAPUCINO</p>
+                <p class="item-price">175</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">CAFFE LATTE</p>
+                <p class="item-price">185</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
             </div>
           </div>
 
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
+          <div class="col">
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">ESPRESSO BEZ KOFEINA</p>
+                <p class="item-price">190</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
             </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
 
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">NES KAFA</p>
+                <p class="item-price">190</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
             </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
 
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">DOMACA KAFA</p>
+                <p class="item-price">140</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
             </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
 
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">IRISH COFFEE</p>
+                <p class="item-price">350</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p">
+                  double espresso, jameson, cream
+                </p>
+              </div>
             </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
+
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">IRISH CREAM COFFEE</p>
+                <p class="item-price">350</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p">
+                  double espresso, carolans, milk, cream
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col">
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
+        <h2 class="menu-h2">EKSTRA</h2>
+        <div class="menu-row">
+          <div class="col">
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">SLAG</p>
+                <p class="item-price">35</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
             </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
+
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">DODATAK MLEKO 0.03</p>
+                <p class="item-price">30</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">DODATAK SOJINO MLEKO 0.03</p>
+                <p class="item-price">65</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
             </div>
           </div>
 
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
+          <div class="col">
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">DODATAK MED</p>
+                <p class="item-price">40</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
             </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
 
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">DODATAK RUM 0.03</p>
+                <p class="item-price">40</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="menu">
-    <div class="menu-image">
-      <h2 class="image-h2">OBROK SALATE</h2>
-    </div>
-    <div class="menu-container">
-      <h2 class="menu-h2">OBROK SALATE</h2>
-      <div class="menu-row">
-        <div class="col">
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
+    <section class="menu">
+      <div class="menu-image menu-image-tea">
+        <h2 class="image-h2">TOPLI NAPICI</h2>
+      </div>
+      <div class="menu-container">
+        <h2 class="menu-h2">TOPLI NAPICI</h2>
+        <div class="menu-row">
+          <div class="col">
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">
+                  ERACLA TOPLA COKOLADA
+                </p>
+                <p class="item-price">220</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
             </div>
           </div>
 
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
+          <div class="col">
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">ALTHAUS CAJEVI</p>
+                <p class="item-price">190</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p"></p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col">
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
+        <h2 class="menu-h2 mainDishes">VOCNI CAJEVI</h2>
+        <div class="menu-row">
+          <div class="col">
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">SICILIAN ORANGE</p>
+                <p class="item-price">35</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p">
+                  ovo prelepo pice kombinuje slast crvenih pomorandzi
+                </p>
+              </div>
             </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
+
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">KIWI COLADA</p>
+                <p class="item-price">65</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p">
+                  sjajan vocni koktel kombinuje prijatan kiseli ukus kivija i
+                  ananasa sa divljom tresnjom
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
+          <div class="col">
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">ALMOND PIE</p>
+                <p class="item-price">40</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p">
+                  ova infuzija je napravljena od vocnih mesavina pomesana sa
+                  ukusom sveze pite sa bademom i pecenih jabuka
+                </p>
+              </div>
             </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
+          </div>
+        </div>
+
+        <h2 class="menu-h2 mainDishes">CRNI CAJ</h2>
+        <div class="menu-row">
+          <div class="col">
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">SPICE PUNCH</p>
+                <p class="item-price">35</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p">
+                  cimet, pomorandza i badem u kombinaciji sa indijskim i
+                  cejlonskim crnim cajem
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
+          <div class="col">
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">IMPERIAL EARL GREY</p>
+                <p class="item-price">40</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p">
+                  mesavina cajeva sa cejlona i kine sa ukusom bergamota i limuna
+                </p>
+              </div>
             </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
+          </div>
+        </div>
+
+        <h2 class="menu-h2 mainDishes">BILJNI CAJ</h2>
+        <div class="menu-row">
+          <div class="col">
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">CHAMOMILE MEADOW</p>
+                <p class="item-price">35</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p">
+                  blag, mirisan i smirujuci caj napravljen od prvoklasnih cvetova kamilice
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
+          <div class="col">
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">GINGER BREEZE</p>
+                <p class="item-price">40</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p">
+                  osvezavajuca biljna mesavina sa djumbirom zasnovana na ajurveda tradiciji
+                </p>
+              </div>
             </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
+          </div>
+        </div>
+
+        <h2 class="menu-h2 mainDishes">ZELENI CAJ</h2>
+        <div class="menu-row">
+          <div class="col">
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">JASMINE TING YUAN</p>
+                <p class="item-price">35</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p">
+                  ukusan caj jasmina, ostrog ukusa i duboke arome
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
+          <div class="col">
+            <div class="menu-item">
+              <div class="items">
+                <p class="item-name">CASABLANCA MINT</p>
+                <p class="item-price">40</p>
+              </div>
+              <div class="menu-desc">
+                <p class="desc-p">
+                  u procesu mesanja delikatan ukus je pomesan sa mentom
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="menu">
-    <div class="menu-image">
-      <h2 class="image-h2">DESERTI</h2>
-    </div>
-    <div class="menu-container">
-      <h2 class="menu-h2">OBROK SALATE</h2>
-      <div class="menu-row">
-        <div class="col">
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
+
+      <section class="menu">
+          <div class="menu-image menu-image-juice">
+            <h2 class="image-h2 mainDishes">SOKOVI</h2>
+          </div>
+          <div class="menu-container">
+            <h2 class="menu-h2 mainDishes">LIMUNADA</h2>
+            <div class="menu-row">
+              <div class="col">
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">
+                      CLASSIC LIMUNADA
+                    </p>
+                    <p class="item-price">210</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p"></p>
+                  </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="items">
+                      <p class="item-name">
+                        LIMUNADA KUCE 'C&C'
+                      </p>
+                      <p class="item-price">280</p>
+                    </div>
+                    <div class="menu-desc">
+                      <p class="desc-p">limun, kokos, passion fruit, nana</p>
+                    </div>
+                  </div>
+              </div>
+    
+              <div class="col">
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">BASILICUM</p>
+                    <p class="item-price">280</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">limun, bosiljak, vanila, lubenica</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
+    
+            <h2 class="menu-h2 mainDishes">CEDJENI SOKOVI</h2>
+            <div class="menu-row">
+              <div class="col">
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">POMORANDZA</p>
+                    <p class="item-price">290</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">
+                    </p>
+                  </div>
+                </div>
+    
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">GREJPFRUT</p>
+                    <p class="item-price">315</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">
+                    </p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">ANANAS</p>
+                    <p class="item-price">435</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <h2 class="menu-h2 mainDishes">STEAMPUNK MIX 0.3</h2>
+            <div class="menu-row">
+              <div class="col">
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">GOLD CORNELIUS</p>
+                    <p class="item-price">375</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">
+                      ananas, pomorandza, jabuka, cimet
+                    </p>
+                  </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="items">
+                      <p class="item-name">GREEN CYLINDER</p>
+                      <p class="item-price">360</p>
+                    </div>
+                    <div class="menu-desc">
+                      <p class="desc-p">
+                        zelena jabuka, djumbir, zeleni celer
+                      </p>
+                    </div>
+                  </div>
+              </div>
+    
+              <div class="col">
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">RUBY RED</p>
+                    <p class="item-price">360</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">
+                      cvekla, crvena jabuka, sargarepa
+                    </p>
+                  </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="items">
+                      <p class="item-name">WHITE ANGEL</p>
+                      <p class="item-price">430</p>
+                    </div>
+                    <div class="menu-desc">
+                      <p class="desc-p">
+                        kokosovo mleko, banana, limeta, ovsene pahuljice
+                      </p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+    
+            <h2 class="menu-h2 mainDishes">VODA</h2>
+            <div class="menu-row">
+              <div class="col">
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">ROSA 0.33</p>
+                    <p class="item-price">150</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                    <div class="items">
+                      <p class="item-name">ROSA 0.75</p>
+                      <p class="item-price">250</p>
+                    </div>
+                    <div class="menu-desc">
+                      <p class="desc-p">
+                      </p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                      <div class="items">
+                        <p class="item-name">ACQUA PANNA 0.25</p>
+                        <p class="item-price">185</p>
+                      </div>
+                      <div class="menu-desc">
+                        <p class="desc-p">
+                        </p>
+                      </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="items">
+                          <p class="item-name">ACQUA PANNA 0.75</p>
+                          <p class="item-price">295</p>
+                        </div>
+                        <div class="menu-desc">
+                          <p class="desc-p">
+                          </p>
+                        </div>
+                      </div>
+              </div>
+    
+              <div class="col">
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">KNJAZ MILOS 0.25</p>
+                    <p class="item-price">150</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                    <div class="items">
+                      <p class="item-name">KNJAZ MILOS 0.75</p>
+                      <p class="item-price">250</p>
+                    </div>
+                    <div class="menu-desc">
+                      <p class="desc-p">
+                      </p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                      <div class="items">
+                        <p class="item-name">ROMERQUELLE LIMUNSKA TRAVA 0.33</p>
+                        <p class="item-price">185</p>
+                      </div>
+                      <div class="menu-desc">
+                        <p class="desc-p">
+                        </p>
+                      </div>
+                    </div>
+              </div>
+            </div>
+    
+            <h2 class="menu-h2 mainDishes">SOKOVI</h2>
+            <div class="menu-row">
+              <div class="col">
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">COCA COLA 0.25</p>
+                    <p class="item-price">190</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">COCA COLA ZERO 0.25</p>
+                    <p class="item-price">35</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">FANTA 0.25</p>
+                    <p class="item-price">190</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">SPRITE 0.25</p>
+                    <p class="item-price">190</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">
+                    </p>
+                  </div>
+                </div>
+    
+              </div>
+    
+              <div class="col">
+                  <div class="menu-item">
+                      <div class="items">
+                        <p class="item-name">SCHWEPPES BITTER LEMON 0.25</p>
+                        <p class="item-price">190</p>
+                      </div>
+                      <div class="menu-desc">
+                        <p class="desc-p">
+                        </p>
+                      </div>
+                    </div>
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">SCHWEPPES TONIC WATER 0.25</p>
+                    <p class="item-price">190</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">NESTEA 0.20</p>
+                    <p class="item-price">190</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <div class="items">
+                    <p class="item-name">NEXT SOKOVI 0.20</p>
+                    <p class="item-price">190</p>
+                  </div>
+                  <div class="menu-desc">
+                    <p class="desc-p">
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h2 class="menu-h2 mainDishes">ENERGETSKI NAPICI</h2>
+          <div class="menu-row">
+            <div class="col">
+              <div class="menu-item">
+                <div class="items">
+                  <p class="item-name">ULTRA ENERGY 0.25</p>
+                  <p class="item-price">220</p>
+                </div>
+                <div class="menu-desc">
+                  <p class="desc-p">
+                  </p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col">
+              <div class="menu-item">
+                <div class="items">
+                  <p class="item-name">RED BULL 0.25</p>
+                  <p class="item-price">360</p>
+                </div>
+                <div class="menu-desc">
+                  <p class="desc-p">
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
           </div>
-        </div>
+        </section>
 
-        <div class="col">
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="menu">
-    <div class="menu-container">
-      <h2 class="menu-h2">TORTE I KOLACI</h2>
-      <div class="menu-row">
-        <div class="col">
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="items">
-              <p class="item-name">JUNECI CHEESEBURGER</p>
-              <p class="item-price">500</p>
-            </div>
-            <div class="menu-desc">
-              <p class="desc-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae odit explicabo, deleniti illo dicta hic fugit.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="footer-logos">
-      <a class="footer-a" href="https://www.facebook.com/cornelius.cylinder/"
-        ><i class="fa fa-facebook-official" aria-hidden="true"></i
-      ></a>
-      <a
-        class="footer-a"
-        href="https://www.tripadvisor.com/Attraction_Review-g294472-d13219305-Reviews-Cornelius_Cylinder-Belgrade.html"
-        ><i class="fa fa-tripadvisor" aria-hidden="true"></i
-      ></a>
-      <a class="footer-a" href="https://twitter.com/cornelinder"
-        ><i class="fa fa-twitter" aria-hidden="true"></i
-      ></a>
-      <a class="footer-a" href="https://www.instagram.com/cornelius_cylinder/"
-        ><i class="fa fa-instagram" aria-hidden="true"></i
-      ></a>
-      <!-- <a class="footer-a" href="https://www.youtube.com/channel/UCFRDbxUN5TCokmgwxwPdrXg"><i class="fa fa-youtube-play"
+    <footer>
+      <div class="footer-logos">
+        <a class="footer-a" href="https://www.facebook.com/cornelius.cylinder/"
+          ><i class="fa fa-facebook-official" aria-hidden="true"></i
+        ></a>
+        <a
+          class="footer-a"
+          href="https://www.tripadvisor.com/Attraction_Review-g294472-d13219305-Reviews-Cornelius_Cylinder-Belgrade.html"
+          ><i class="fa fa-tripadvisor" aria-hidden="true"></i
+        ></a>
+        <a class="footer-a" href="https://twitter.com/cornelinder"
+          ><i class="fa fa-twitter" aria-hidden="true"></i
+        ></a>
+        <a class="footer-a" href="https://www.instagram.com/cornelius_cylinder/"
+          ><i class="fa fa-instagram" aria-hidden="true"></i
+        ></a>
+        <!-- <a class="footer-a" href="https://www.youtube.com/channel/UCFRDbxUN5TCokmgwxwPdrXg"><i class="fa fa-youtube-play"
           aria-hidden="true"></i></a> -->
 
-      <p class="footer-p">Cornelius &amp; Cylinder &copy; 2019.</p>
-    </div>
-  </footer>
+        <p class="footer-p">Cornelius &amp; Cylinder &copy; 2019.</p>
+      </div>
+    </footer>
 
-  <script src="assets/js/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="assets/js/app.js"></script>
-  <script src="assets/js/anime.min.js"></script>
-  
-</body>
-
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script src="assets/js/anime.min.js"></script>
+  </body>
 </html>
