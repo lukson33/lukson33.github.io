@@ -675,19 +675,19 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/5.png");
+    url("../img/burger\ 2.jpg");
   background-image: -webkit-linear-gradient(
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/5.png");
+    url("../img/burger\ 2.jpg");
   background-image: -o-linear-gradient(
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/5.png");
+    url("../img/burger\ 2.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -695,7 +695,7 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/5.png");
+    url("../img/burger\ 2.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -703,15 +703,15 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/5.png");
+    url("../img/burger\ 2.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/5.png");
+    url("../img/burger\ 2.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .discover-drinks {
