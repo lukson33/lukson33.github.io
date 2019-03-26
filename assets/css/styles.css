@@ -104,6 +104,12 @@ nav {
   display: inline-block;
 }
 
+.flag-menu {
+  cursor: none;
+  margin-left: 0 !important;
+  margin-top: 0.4rem;
+}
+
 .nav-li:hover .nav-a:after {
   width: 100%;
 }
@@ -460,21 +466,21 @@ header {
 }
 
 .image-1 {
-  background-image: url("../img/4.png");
+  background-image: url("../img/avion.png");
   background-size: cover;
   background-position: center;
 }
 
 .image-2 {
-  background-image: url("../img/avion.jpg");
+  background-image: url("../img/basta.png");
   background-size: cover;
   background-position: center;
 }
 
 .image-3 {
-  background-image: url("../img/basta.jpg");
+  background-image: url("../img/motor.png");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 
 .boxes-content {
@@ -675,19 +681,19 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/burger\ 2.jpg");
+    url("../img/burger\ 2.png");
   background-image: -webkit-linear-gradient(
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/burger\ 2.jpg");
+    url("../img/burger\ 2.png");
   background-image: -o-linear-gradient(
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/burger\ 2.jpg");
+    url("../img/burger\ 2.png");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -695,7 +701,7 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/burger\ 2.jpg");
+    url("../img/burger\ 2.png");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -703,13 +709,13 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/burger\ 2.jpg");
+    url("../img/burger\ 2.png");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/burger\ 2.jpg");
+    url("../img/burger\ 2.png");
   background-size: cover;
   background-position: bottom;
 }
@@ -1182,7 +1188,7 @@ span {
 }
 
 .menu-nav-a {
-  font-size: 1.7rem;
+  font-size: 2.3rem;
 }
 
 .menu-image {
@@ -1353,19 +1359,19 @@ span {
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
-    url("https://source.unsplash.com/LVE8S1FozK0");
+    url("../img/beer.png");
   background-image: -webkit-linear-gradient(
       left,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("https://source.unsplash.com/LVE8S1FozK0");
+    url("../img/beer.png");
   background-image: -o-linear-gradient(
       left,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("https://source.unsplash.com/LVE8S1FozK0");
+    url("../img/beer.png");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -1373,7 +1379,7 @@ span {
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
-    url("https://source.unsplash.com/LVE8S1FozK0");
+    url("../img/beer.png");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -1381,13 +1387,13 @@ span {
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
-    url("https://source.unsplash.com/LVE8S1FozK0");
+    url("../img/beer.png");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("https://source.unsplash.com/LVE8S1FozK0");
+    url("../img/beer.png");
 }
 
 .menu-image-coffee {
@@ -1398,19 +1404,19 @@ span {
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
-    url("../img/coffee\ 2.jpg");
+    url("../img/coffee\ 2.png");
   background-image: -webkit-linear-gradient(
       left,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("../img/coffee\ 2.jpg");
+    url("../img/coffee\ 2.png");
   background-image: -o-linear-gradient(
       left,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("../img/coffee\ 2.jpg");
+    url("../img/coffee\ 2.png");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -1418,7 +1424,7 @@ span {
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
-    url("../img/coffee\ 2.jpg");
+    url("../img/coffee\ 2.png");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -1426,60 +1432,13 @@ span {
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
-    url("../img/coffee\ 2.jpg");
+    url("../img/coffee\ 2.png");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("../img/coffee\ 2.jpg");
-  background-size: cover;
-  background-position: bottom;
-}
-
-.menu-image-coffee {
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(10, 10, 10, 0.849)),
-      to(rgba(12, 12, 12, 0.849))
-    ),
-    url("../img/coffee\ 2.jpg");
-  background-image: -webkit-linear-gradient(
-      left,
-      rgba(10, 10, 10, 0.849),
-      rgba(12, 12, 12, 0.849)
-    ),
-    url("../img/coffee\ 2.jpg");
-  background-image: -o-linear-gradient(
-      left,
-      rgba(10, 10, 10, 0.849),
-      rgba(12, 12, 12, 0.849)
-    ),
-    url("../img/coffee\ 2.jpg");
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(10, 10, 10, 0.849)),
-      to(rgba(12, 12, 12, 0.849))
-    ),
-    url("../img/coffee\ 2.jpg");
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(10, 10, 10, 0.849)),
-      to(rgba(12, 12, 12, 0.849))
-    ),
-    url("../img/coffee\ 2.jpg");
-  background-image: linear-gradient(
-      90deg,
-      rgba(10, 10, 10, 0.849),
-      rgba(12, 12, 12, 0.849)
-    ),
-    url("../img/coffee\ 2.jpg");
+    url("../img/coffee\ 2.png");
   background-size: cover;
   background-position: bottom;
 }
@@ -1492,19 +1451,19 @@ span {
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
-    url("../img/tea\ 1.jpg");
+    url("../img/tea\ 1.png");
   background-image: -webkit-linear-gradient(
       left,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("../img/tea\ 1.jpg");
+    url("../img/tea\ 1.png");
   background-image: -o-linear-gradient(
       left,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("../img/tea\ 1.jpg");
+    url("../img/tea\ 1.png");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -1512,7 +1471,7 @@ span {
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
-    url("../img/tea\ 1.jpg");
+    url("../img/tea\ 1.png");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -1520,13 +1479,13 @@ span {
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
-    url("../img/tea\ 1.jpg");
+    url("../img/tea\ 1.png");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("../img/tea\ 1.jpg");
+    url("../img/tea\ 1.png");
   background-size: cover;
   background-position: bottom;
 }
@@ -1539,19 +1498,19 @@ span {
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
-    url("../img/juice.jpg");
+    url("../img/juice.png");
   background-image: -webkit-linear-gradient(
       left,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("../img/juice.jpg");
+    url("../img/juice.png");
   background-image: -o-linear-gradient(
       left,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("../img/juice.jpg");
+    url("../img/juice.png");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -1559,7 +1518,7 @@ span {
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
-    url("../img/juice.jpg");
+    url("../img/juice.png");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -1567,20 +1526,162 @@ span {
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
-    url("../img/juice.jpg");
+    url("../img/juice.png");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
       rgba(12, 12, 12, 0.849)
     ),
-    url("../img/juice.jpg");
+    url("../img/juice.png");
   background-size: cover;
   background-position: bottom;
 }
 
+.menu-image-wine {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/wine.png");
+  background-image: -webkit-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("../img/wine.png");
+  background-image: -o-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("../img/wine.png");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/wine.png");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/wine.png");
+  background-image: linear-gradient(
+      90deg,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("../img/wine.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.menu-image-cocktail {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/cocktail.png");
+  background-image: -webkit-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("../img/cocktail.png");
+  background-image: -o-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("../img/cocktail.png");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/cocktail.png");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/cocktail.png");
+  background-image: linear-gradient(
+      90deg,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("../img/cocktail.png");
+}
+
+.menu-image-alcohol {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/alcohol.png");
+  background-image: -webkit-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("../img/alcohol.png");
+  background-image: -o-linear-gradient(
+      left,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("../img/alcohol.png");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/alcohol.png");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/alcohol.png");
+  background-image: linear-gradient(
+      90deg,
+      rgba(10, 10, 10, 0.849),
+      rgba(12, 12, 12, 0.849)
+    ),
+    url("../img/alcohol.png");
+}
+
 .menu-h2 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.5rem;
+}
+
+.podmeni-h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .image-h2 {
@@ -1631,6 +1732,11 @@ span {
 .item-name {
   font-size: 2.4rem;
   padding-right: 1rem;
+}
+
+.gold {
+  color: rgb(233, 198, 0);
+  text-shadow: 1px 1px 2px #000000;
 }
 
 .item-price {
@@ -1778,6 +1884,12 @@ footer {
   width: 90%;
 }
 
+@media screen and (max-width: 1070px) {
+  .image-h2 {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .image-h2 {
     width: 90%;
@@ -1809,7 +1921,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .image-h2 {
     width: 100%;
     padding: 1rem 5rem;
