@@ -876,9 +876,9 @@ span {
     flex-direction: column-reverse;
   }
   .boxes-content {
-    padding: 3rem 0;
+    padding: 2rem 0;
     width: 90%;
-    height: 70%;
+    height: 65%;
   }
   .info-row {
     -webkit-box-orient: vertical;
@@ -964,14 +964,12 @@ span {
 }
 
 /* HEIGHT */
-/* @media screen and (max-height: 600px) {
+@media screen and (max-height: 580px) {
   .boxes-content {
-    padding: 2rem 0;
+    padding: 3rem 0;
+    height: 70%;
   }
-  .boxes-content {
-    height: 65%;
-  }
-} */
+}
 
 @media screen and (max-height: 650px) {
   .discover-h2 {
