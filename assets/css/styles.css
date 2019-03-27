@@ -876,9 +876,9 @@ span {
     flex-direction: column-reverse;
   }
   .boxes-content {
-    padding: 2rem 0;
+    padding: 3rem 0;
     width: 90%;
-    height: 65%;
+    height: 70%;
     background-color: red;
   }
   .info-row {
