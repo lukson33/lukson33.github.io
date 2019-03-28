@@ -292,19 +292,19 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/2.jpg");
+    url("../img/2.gif");
   background-image: -webkit-linear-gradient(
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/2.jpg");
+    url("../img/2.gif");
   background-image: -o-linear-gradient(
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/2.jpg");
+    url("../img/2.gif");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -312,7 +312,7 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/2.jpg");
+    url("../img/2.gif");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -320,7 +320,7 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/2.jpg");
+    url("../img/2.gif");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -328,7 +328,7 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/2.jpg");
+    url("../img/2.gif");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -336,7 +336,7 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/2.jpg");
+    url("../img/2.gif");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -344,7 +344,7 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/2.jpg");
+    url("../img/2.gif");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -352,13 +352,13 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/2.jpg");
+    url("../img/2.gif");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/2.jpg");
+    url("../img/2.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -474,19 +474,19 @@ header {
 }
 
 .image-1 {
-  background-image: url("../img/avion.png");
+  background-image: url("../img/avion.gif");
   background-size: cover;
   background-position: center;
 }
 
 .image-2 {
-  background-image: url("../img/basta.png");
+  background-image: url("../img/basta.gif");
   background-size: cover;
   background-position: center;
 }
 
 .image-3 {
-  background-image: url("../img/motor.png");
+  background-image: url("../img/motor.gif");
   background-size: cover;
   background-position: center;
 }
