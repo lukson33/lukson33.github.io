@@ -292,19 +292,19 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/22.jpg");
+    url("../img/24.jpg");
   background-image: -webkit-linear-gradient(
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/22.jpg");
+    url("../img/24.jpg");
   background-image: -o-linear-gradient(
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/22.jpg");
+    url("../img/24.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -312,7 +312,7 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/22.jpg");
+    url("../img/24.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -320,7 +320,7 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/22.jpg");
+    url("../img/24.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -328,7 +328,7 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/22.jpg");
+    url("../img/24.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -336,7 +336,7 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/22.jpg");
+    url("../img/24.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -344,7 +344,7 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/22.jpg");
+    url("../img/24.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -352,13 +352,13 @@ header {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/22.jpg");
+    url("../img/24.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/22.jpg");
+    url("../img/24.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -474,19 +474,19 @@ header {
 }
 
 .image-1 {
-  background-image: url("../img/avion2.jpg");
+  background-image: url("../img/avion4.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .image-2 {
-  background-image: url("../img/basta2.jpg");
+  background-image: url("../img/basta4.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .image-3 {
-  background-image: url("../img/motor2.jpg");
+  background-image: url("../img/motor4.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -689,19 +689,19 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/5.gif");
+    url("../img/54.jpg");
   background-image: -webkit-linear-gradient(
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/5.gif");
+    url("../img/54.jpg");
   background-image: -o-linear-gradient(
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/5.gif");
+    url("../img/54.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -709,7 +709,7 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/5.gif");
+    url("../img/54.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -717,7 +717,7 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/5.gif");
+    url("../img/54.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -725,13 +725,13 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/5.gif");
+    url("../img/54.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/5.gif");
+    url("../img/54.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -744,19 +744,19 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/6.gif");
+    url("../img/64.jpg");
   background-image: -webkit-linear-gradient(
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/6.gif");
+    url("../img/64.jpg");
   background-image: -o-linear-gradient(
       left,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/6.gif");
+    url("../img/64.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -764,7 +764,7 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/6.gif");
+    url("../img/64.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -772,7 +772,7 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/6.gif");
+    url("../img/64.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -780,13 +780,13 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/6.gif");
+    url("../img/64.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
       rgba(12, 12, 12, 0.7)
     ),
-    url("../img/6.gif");
+    url("../img/64.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -1319,7 +1319,7 @@ span {
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
-    url("../img/steak.gif");
+    url("../img/steak4.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -1336,7 +1336,7 @@ span {
       from(rgba(10, 10, 10, 0.6)),
       to(rgba(12, 12, 12, 0.6))
     ),
-    url("../img/soup.gif");
+    url("../img/soup4.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1353,7 +1353,7 @@ span {
       from(rgba(10, 10, 10, 0.75)),
       to(rgba(12, 12, 12, 0.75))
     ),
-    url("../img/salad.gif");
+    url("../img/salad4.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
