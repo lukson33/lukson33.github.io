@@ -182,6 +182,10 @@ nav {
     position: fixed;
   }
 
+  nav {
+    background-color: transparent !important;
+  }
+
   .links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1215,6 +1219,13 @@ span {
   padding: 2rem 0rem;
 }
 
+.food-img {
+  position: relative;
+  top: -1px;
+  font-size: 2rem !important;
+  padding: 5px 0px;
+}
+
 .menu-nav-a-on {
   font-weight: 700;
   text-decoration: underline;
@@ -1829,7 +1840,8 @@ span {
 
 .item-name {
   font-size: 2.4rem;
-  padding-right: 1rem;
+  padding-right: 1.5rem;
+  display: inline-block;
 }
 
 .gold {
@@ -2009,13 +2021,9 @@ footer {
   }
   .menu-nav {
     z-index: 150;
-    background-color: transparent;
   }
   #between {
     width: 130%;
-  }
-  nav {
-    background-color: transparent !important;
   }
 }
 
