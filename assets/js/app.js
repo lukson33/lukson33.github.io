@@ -1,3 +1,9 @@
+/* LOADER */
+$(window).on("load", function() {
+  $(".loader-wrapper").fadeOut("slow");
+  $(".loader-wrapper").remove();
+});
+
 /* REMOVE HOVER ON PHONES */
 if (screen.width < 800) {
   function hasTouch() {
