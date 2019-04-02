@@ -1405,6 +1405,23 @@ span {
   background-repeat: no-repeat;
 }
 
+#breakfast {
+  position: relative;
+  background-attachment: fixed;
+  height: 35vh;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/breakfast\ 2.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
 #main {
   position: relative;
   background-attachment: fixed;
