@@ -483,9 +483,6 @@ header {
   margin-top: 4rem;
   padding: 1rem 4rem;
   background-color: rgb(179, 179, 179);
-  -webkit-transition: 0.2s all;
-  -o-transition: 0.2s all;
-  transition: 0.2s all;
 }
 
 .arrow-btn {
@@ -493,9 +490,6 @@ header {
   background-color: rgb(77, 77, 77);
   padding: 1rem 2rem;
   margin-left: -4px;
-  -webkit-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
 }
 
 .arrow {
