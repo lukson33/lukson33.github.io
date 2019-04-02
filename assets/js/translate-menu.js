@@ -12,6 +12,7 @@ const language = {
     gallery: "GALLERY",
     contact: "CONTACT",
     main: "MAIN PAGE",
+    breakfast: "BREAKFAST",
     mainDishes: "MAIN DISHES",
     soup: "SOUP",
     salads: "SALADS",
@@ -70,6 +71,10 @@ const language = {
     name55: "CHOCOLATE RASPBERRY CAKE",
     name56: "ORANGE JAFFA CAKE",
     name57: "DUET HAZELNUT CAKE",
+    name58: "FRIED EGGS WITH BACON",
+    name59: "HAM OMELETTE",
+    name60: "VEGETABLES OMELETTE",
+    name61: "FRENCH TOAST WITH KAJMAK AND AJVAR",
     desc1:
       "beef meat, cheddar cheese, caramelized onions, pickles, iceberg salad, tomato, bacon /fries, onion rings/",
     desc2:
@@ -112,7 +117,11 @@ const language = {
     desc35: "chicken, egg, pancetta, fries",
     desc52: "apples, vanilla ice cream",
     desc53: "with maple syrup, butter, fruit berry sauce and vanilla ice cream",
-    desc54: "cinnamon, brown sugar, butter"
+    desc54: "cinnamon, brown sugar, butter",
+    desc55: "crispy bacon, feta cheese and tomatoes (3 eggs)",
+    desc56: "feta cheese and tomatoes (3 eggs)",
+    desc57: "pepper, zucchini, mushrooms, tomatoes, onions",
+    desc58: "ham, mozzarela"
   }
 };
 
@@ -152,6 +161,9 @@ if (window.location.href.indexOf("menu") > -1) {
       });
       document.querySelectorAll(".desert").forEach(desert => {
         desert.textContent = language.eng.desert;
+      });
+      document.querySelectorAll(".breakfast").forEach(breakfast => {
+        breakfast.textContent = language.eng.breakfast;
       });
       document.getElementById("restaurant").textContent =
         language.eng.restaurant;
@@ -209,6 +221,10 @@ if (window.location.href.indexOf("menu") > -1) {
       document.getElementById("name55").textContent = language.eng.name55;
       document.getElementById("name56").textContent = language.eng.name56;
       document.getElementById("name57").textContent = language.eng.name57;
+      document.getElementById("name58").textContent = language.eng.name58;
+      document.getElementById("name59").textContent = language.eng.name59;
+      document.getElementById("name60").textContent = language.eng.name60;
+      document.getElementById("name61").textContent = language.eng.name61;
       document.getElementById("desc1").textContent = language.eng.desc1;
       document.getElementById("desc2").textContent = language.eng.desc2;
       document.getElementById("desc3").textContent = language.eng.desc3;
@@ -241,6 +257,10 @@ if (window.location.href.indexOf("menu") > -1) {
       document.getElementById("desc52").textContent = language.eng.desc52;
       document.getElementById("desc53").textContent = language.eng.desc53;
       document.getElementById("desc54").textContent = language.eng.desc54;
+      document.getElementById("desc55").textContent = language.eng.desc55;
+      document.getElementById("desc56").textContent = language.eng.desc56;
+      document.getElementById("desc57").textContent = language.eng.desc57;
+      document.getElementById("desc58").textContent = language.eng.desc58;
     }
   }
 }
