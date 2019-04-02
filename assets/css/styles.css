@@ -636,6 +636,10 @@ header {
   width: 100%;
 }
 
+.about-info {
+  background-color: #fff;
+}
+
 .info-mapa {
   width: 100%;
 }
