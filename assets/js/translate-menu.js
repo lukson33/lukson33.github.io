@@ -6,6 +6,8 @@ const dataReload = document.querySelectorAll("[data-reload]");
 const language = {
   eng: {
     more: "SEE MORE",
+    aText1: "ABOUT US",
+    aText2: "OUR STORY",
     text1: "ENG-TEXT",
     about: "ABOUT US",
     menu: "MENU",
@@ -136,6 +138,37 @@ if (window.location.href.indexOf("index") > -1) {
       document.getElementById("lang-menu").textContent = language.eng.menu;
       document.getElementById("lang-gallery").textContent =
         language.eng.gallery;
+      document.getElementById("lang-contact").textContent =
+        language.eng.contact;
+    }
+  }
+}
+
+//Check if on about page
+if (window.location.href.indexOf("about") > -1) {
+  //Define language via window hash
+  if (window.location.hash) {
+    if (window.location.hash === "#eng") {
+      document.getElementById("lang-main").textContent = language.eng.main;
+      document.getElementById("lang-menu").textContent = language.eng.menu;
+      document.getElementById("lang-gallery").textContent =
+        language.eng.gallery;
+      document.getElementById("lang-contact").textContent =
+        language.eng.contact;
+      document.getElementById("aText1").textContent = language.eng.aText1;
+      document.getElementById("aText2").textContent = language.eng.aText2;
+    }
+  }
+}
+
+//Check if on gallery page
+if (window.location.href.indexOf("gallery") > -1) {
+  //Define language via window hash
+  if (window.location.hash) {
+    if (window.location.hash === "#eng") {
+      document.getElementById("lang-main").textContent = language.eng.main;
+      document.getElementById("lang-about").textContent = language.eng.about;
+      document.getElementById("lang-menu").textContent = language.eng.menu;
       document.getElementById("lang-contact").textContent =
         language.eng.contact;
     }
