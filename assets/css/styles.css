@@ -960,7 +960,7 @@ span {
     flex-direction: column-reverse;
   }
   .boxes-content {
-    padding: 2rem 0;
+    /* padding: 2rem 0; */
     width: 90%;
     height: 65%;
   }
@@ -1050,7 +1050,7 @@ span {
 /* HEIGHT */
 @media screen and (max-height: 580px) {
   .boxes-content {
-    padding: 3rem 0;
+    /* padding: 3rem 0; */
     height: 70%;
   }
 }
