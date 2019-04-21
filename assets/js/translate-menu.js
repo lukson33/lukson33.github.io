@@ -15,6 +15,7 @@ const language = {
     contact: "CONTACT",
     main: "MAIN PAGE",
     breakfast: "BREAKFAST",
+    burger: "BURGERS",
     mainDishes: "MAIN DISHES",
     soup: "SOUP",
     salads: "SALADS",
@@ -36,9 +37,9 @@ const language = {
     name5: "BUFFALO WINGS (500g)",
     name6: "MARINATED PORK RIBS (700g)",
     name7: "TANDOORI CHICKEN",
-    name8: "PREMIUM WURST",
-    name9: "WURST WITH CHEESE",
-    name10: "HOT WURST",
+    name8: "PREMIUM WURST (320g)",
+    name9: "WURST WITH CHEESE (200g)",
+    name10: "HOT WURST (180g)",
     name16: "POTTAGE OF THE DAY",
     name17: "CHICKEN SOUP",
     name18: "VEAL SOUP",
@@ -77,6 +78,12 @@ const language = {
     name59: "HAM OMELETTE",
     name60: "VEGETABLES OMELETTE",
     name61: "FRENCH TOAST WITH KAJMAK AND AJVAR",
+    name62: "DOUBLE CHEESEBURGER",
+    name63: "STUFFED BACON WRAPPED CHICKEN",
+    name64: "CORDON BLEU",
+    name65: "BLACK ĐORĐE / KARAĐORĐE'S SCHNITZEL",
+    name66: "TURKEY SALTIMBOCCA",
+    name67: "VEAL BAJADERA",
     desc1:
       "beef meat, cheddar cheese, caramelized onions, pickles, iceberg salad, tomato, bacon /fries, onion rings/",
     desc2:
@@ -90,9 +97,10 @@ const language = {
     desc6:
       "slowly baked, glazed pork ribs, sweet corn, coleslaw salad, potato wedges, BBQ sauce",
     desc7: "dry marinated chicken breasts, curry rice with vegetables",
-    desc8: "beef and pork meat, seasoned potato wedges, mustard",
-    desc9: "seasoned potato wedges, mustard",
-    desc10: "seasoned potato wedges, mustard",
+    desc8:
+      "beef and pork meat, seasoned potato wedges, coleslaw salad, ketchup, mustard",
+    desc9: "seasoned potato wedges, coleslaw salad, ketchup, mustard",
+    desc10: "seasoned potato wedges, coleslaw salad, ketchup, mustard",
     desc11:
       "njeguski prsut, bruschetta with tomato, brie cheese, dry plums rolled in pancetta with jalapeño peppers, parmesan, marinated goat cheese, olives",
     desc12:
@@ -123,7 +131,15 @@ const language = {
     desc55: "crispy bacon, feta cheese and tomatoes (3 eggs)",
     desc56: "feta cheese and tomatoes (3 eggs)",
     desc57: "pepper, zucchini, mushrooms, tomatoes, onions",
-    desc58: "ham, mozzarela"
+    desc58: "ham, mozzarela",
+    desc59:
+      "chicken breasts, mozarella, pepper, pesto basilica, bacon / side dish: curry rice /",
+    desc60:
+      "chicken breasts stuffed with ham and cheese, tartar sauce and potato wedges",
+    desc61: "chicken or pork breasts, fries, tartar sauce",
+    desc62:
+      "turkey breasts, njeguski prsut, sage, white vine / side dish: mashed potatoes /",
+    desc63: "veal breasts, potatoes au gratin"
   }
 };
 
@@ -201,6 +217,7 @@ if (window.location.href.indexOf("menu") > -1) {
       document.getElementById("restaurant").textContent =
         language.eng.restaurant;
       document.getElementById("caffeBar").textContent = language.eng.caffeBar;
+      document.getElementById("burger").textContent = language.eng.burger;
       document.getElementById("special").textContent = language.eng.special;
       document.getElementById("salads").textContent = language.eng.salads;
       document.getElementById("mealSalads").textContent =
@@ -258,6 +275,12 @@ if (window.location.href.indexOf("menu") > -1) {
       document.getElementById("name59").textContent = language.eng.name59;
       document.getElementById("name60").textContent = language.eng.name60;
       document.getElementById("name61").textContent = language.eng.name61;
+      document.getElementById("name62").textContent = language.eng.name62;
+      document.getElementById("name63").textContent = language.eng.name63;
+      document.getElementById("name64").textContent = language.eng.name64;
+      document.getElementById("name65").textContent = language.eng.name65;
+      document.getElementById("name66").textContent = language.eng.name66;
+      document.getElementById("name67").textContent = language.eng.name67;
       document.getElementById("desc1").textContent = language.eng.desc1;
       document.getElementById("desc2").textContent = language.eng.desc2;
       document.getElementById("desc3").textContent = language.eng.desc3;
@@ -294,6 +317,11 @@ if (window.location.href.indexOf("menu") > -1) {
       document.getElementById("desc56").textContent = language.eng.desc56;
       document.getElementById("desc57").textContent = language.eng.desc57;
       document.getElementById("desc58").textContent = language.eng.desc58;
+      document.getElementById("desc59").textContent = language.eng.desc59;
+      document.getElementById("desc60").textContent = language.eng.desc60;
+      document.getElementById("desc61").textContent = language.eng.desc61;
+      document.getElementById("desc62").textContent = language.eng.desc62;
+      document.getElementById("desc63").textContent = language.eng.desc63;
     }
   }
 }
