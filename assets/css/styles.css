@@ -1049,7 +1049,7 @@ span {
 /* HEIGHT */
 @media screen and (max-height: 580px) {
   .boxes-content {
-    /* padding: 3rem 0; */
+    padding: 1.5rem 0;
     height: 70%;
   }
 }
