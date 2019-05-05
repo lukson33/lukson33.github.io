@@ -75,6 +75,11 @@ const language = {
     name59: "HAM OMELETTE",
     name60: "VEGETABLES OMELETTE",
     name61: "FRENCH TOAST WITH KAJMAK AND AJVAR",
+    name63: "STUFFED BACON WRAPPED CHICKEN",
+    name64: "CORDON BLEU",
+    name65: "BLACK ĐORĐE / KARAĐORĐE'S SCHNITZEL",
+    name66: "TURKEY SALTIMBOCCA",
+    name67: "VEAL BAJADERA",
     desc1:
       "beef meat, cheddar cheese, caramelized onions, pickles, iceberg salad, tomato, bacon /fries, onion rings/",
     desc2:
@@ -121,7 +126,20 @@ const language = {
     desc55: "crispy bacon, feta cheese and tomatoes (3 eggs)",
     desc56: "feta cheese and tomatoes (3 eggs)",
     desc57: "pepper, zucchini, mushrooms, tomatoes, onions",
-    desc58: "ham, mozzarela"
+    desc58: "ham, mozzarela",
+    desc59:
+      "chicken breasts, mozarella, pepper, pesto basilica, bacon / side dish: curry rice /",
+    desc60:
+      "chicken breasts stuffed with ham and cheese, tartar sauce and potato wedges",
+    desc61: "chicken or pork breasts, fries, tartar sauce",
+    desc62:
+      "turkey breasts, njeguski prsut, sage, white vine / side dish: mashed potatoes /",
+    desc63: "veal breasts, potatoes au gratin",
+    desc64: "tomatoes, cheese, prosciutto, pepperoni, pancetta",
+    desc65:
+      "tortilla chips, chilli sauce with meat, cheese, melted cheddar cheese, olives, tomatoes, sour cream,  jalapeño",
+    desc66:
+      "french fries, chilli sauce with meat, olives, melted cheddar cheese, tomatoes, pancetta, sour cream"
   }
 };
 
@@ -225,6 +243,11 @@ if (window.location.href.indexOf("menu") > -1) {
       document.getElementById("name59").textContent = language.eng.name59;
       document.getElementById("name60").textContent = language.eng.name60;
       document.getElementById("name61").textContent = language.eng.name61;
+      document.getElementById("name63").textContent = language.eng.name63;
+      document.getElementById("name64").textContent = language.eng.name64;
+      document.getElementById("name65").textContent = language.eng.name65;
+      document.getElementById("name66").textContent = language.eng.name66;
+      document.getElementById("name67").textContent = language.eng.name67;
       document.getElementById("desc1").textContent = language.eng.desc1;
       document.getElementById("desc2").textContent = language.eng.desc2;
       document.getElementById("desc3").textContent = language.eng.desc3;
@@ -261,6 +284,14 @@ if (window.location.href.indexOf("menu") > -1) {
       document.getElementById("desc56").textContent = language.eng.desc56;
       document.getElementById("desc57").textContent = language.eng.desc57;
       document.getElementById("desc58").textContent = language.eng.desc58;
+      document.getElementById("desc59").textContent = language.eng.desc59;
+      document.getElementById("desc60").textContent = language.eng.desc60;
+      document.getElementById("desc61").textContent = language.eng.desc61;
+      document.getElementById("desc62").textContent = language.eng.desc62;
+      document.getElementById("desc63").textContent = language.eng.desc63;
+      document.getElementById("desc64").textContent = language.eng.desc64;
+      document.getElementById("desc65").textContent = language.eng.desc65;
+      document.getElementById("desc66").textContent = language.eng.desc66;
     }
   }
 }
