@@ -35,8 +35,12 @@ html {
   top: 0;
   left: 0;
   background-color: rgb(35, 35, 35);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body {
@@ -54,7 +58,8 @@ html {
   position: relative;
   border: 4px solid #fff;
   top: 50%;
-  animation: loader 2s infinite ease;
+  -webkit-animation: loader 2s infinite ease;
+          animation: loader 2s infinite ease;
 }
 
 .loader-inner {
@@ -62,28 +67,83 @@ html {
   display: inline-block;
   width: 100%;
   background-color: #fff;
-  animation: loader-inner 2s infinite ease-in;
+  -webkit-animation: loader-inner 2s infinite ease-in;
+          animation: loader-inner 2s infinite ease-in;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 
 @keyframes loader {
   0% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 
   25% {
-    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
   }
 
   50% {
-    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
   }
 
   75% {
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 
   100% {
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+
+  25% {
+    height: 0%;
+  }
+
+  50% {
+    height: 100%;
+  }
+
+  75% {
+    height: 100%;
+  }
+
+  100% {
+    height: 0%;
   }
 }
 
@@ -435,6 +495,13 @@ header {
       linear,
       left top,
       right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/24.jpg");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
@@ -809,6 +876,13 @@ span {
       to(rgba(12, 12, 12, 0.7))
     ),
     url("../img/54.jpg");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/54.jpg");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.7),
@@ -860,6 +934,13 @@ span {
       linear,
       left top,
       right top,
+      from(rgba(10, 10, 10, 0.7)),
+      to(rgba(12, 12, 12, 0.7))
+    ),
+    url("../img/64.jpg");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
       from(rgba(10, 10, 10, 0.7)),
       to(rgba(12, 12, 12, 0.7))
     ),
@@ -1170,6 +1251,13 @@ span {
       to(rgba(12, 12, 12, 0.849))
     ),
     url("../img/4.png");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/4.png");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
@@ -1387,6 +1475,13 @@ span {
       to(rgba(12, 12, 12, 0.849))
     ),
     url("https://source.unsplash.com/qE1jxYXiwOA");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("https://source.unsplash.com/qE1jxYXiwOA");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
@@ -1545,6 +1640,13 @@ span {
       to(rgba(12, 12, 12, 0.849))
     ),
     url("../img/beer.gif");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/beer.gif");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
@@ -1594,6 +1696,13 @@ span {
       linear,
       left top,
       right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/coffee-2.gif");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
@@ -1653,6 +1762,13 @@ span {
       to(rgba(12, 12, 12, 0.849))
     ),
     url("../img/tea-1.gif");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/tea-1.gif");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
@@ -1704,6 +1820,13 @@ span {
       linear,
       left top,
       right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/juice.gif");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
@@ -1763,6 +1886,13 @@ span {
       to(rgba(12, 12, 12, 0.849))
     ),
     url("../img/wine.gif");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/wine.gif");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
@@ -1818,6 +1948,13 @@ span {
       to(rgba(12, 12, 12, 0.849))
     ),
     url("../img/cocktail.gif");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/cocktail.gif");
   background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.849),
@@ -1867,6 +2004,13 @@ span {
       linear,
       left top,
       right top,
+      from(rgba(10, 10, 10, 0.849)),
+      to(rgba(12, 12, 12, 0.849))
+    ),
+    url("../img/alcohol.gif");
+  background-image: -webkit-gradient(
+      linear,
+      left top, right top,
       from(rgba(10, 10, 10, 0.849)),
       to(rgba(12, 12, 12, 0.849))
     ),
