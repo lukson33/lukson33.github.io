@@ -143,23 +143,6 @@ const language = {
   }
 };
 
-//Check if on main page
-if (window.location.href.indexOf("index") > -1) {
-  //Define language via window hash
-  if (window.location.hash) {
-    if (window.location.hash === "#eng") {
-      document.getElementById("lang-more").textContent = language.eng.more;
-      document.getElementById("lang-text1").textContent = language.eng.text1;
-      document.getElementById("lang-about").textContent = language.eng.about;
-      document.getElementById("lang-menu").textContent = language.eng.menu;
-      document.getElementById("lang-gallery").textContent =
-        language.eng.gallery;
-      document.getElementById("lang-contact").textContent =
-        language.eng.contact;
-    }
-  }
-}
-
 //Check if on menu page
 if (window.location.href.indexOf("menu") > -1) {
   //Define language via window hash
