@@ -1,5 +1,5 @@
 /* LOADER */
-$("nav").hide();
+$("nav").show();
 $("body").css("height", "100%");
 $("html").css("height", "100%");
 $(window).on("load", function() {
