@@ -680,11 +680,12 @@ header {
 
 .boxes-h2 {
   font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 .boxes-p {
-  font-size: 1.7rem;
-  margin-top: 2rem;
+  font-size: 2rem;
+  margin: 2rem 0 1rem 0;
   padding: 0 2rem;
 }
 
@@ -996,7 +997,7 @@ span {
   font-size: 2.4rem;
   color: white;
   margin-bottom: 7.5rem;
-  padding: 2rem;
+  padding: 0 2rem;
 }
 
 .discover-btn {
@@ -1070,7 +1071,7 @@ span {
     flex-direction: column-reverse;
   }
   .boxes-content {
-    /* padding: 2rem 0; */
+    padding: 1rem 0;
     width: 90%;
     height: 65%;
   }
@@ -1160,7 +1161,7 @@ span {
 /* HEIGHT */
 @media screen and (max-height: 580px) {
   .boxes-content {
-    padding: 1.5rem 0;
+    padding: 3.5rem 0;
     height: 70%;
   }
 }
