@@ -23,7 +23,7 @@
     <header>
       <div class="header-content">
         <h1 class="header-h1">Cornelius &amp; Cylinder.</h1>
-        <p class="header-p">
+        <p id="lang-first" class="header-p">
           Prvi i jedini Steam Punk restoran u Srbiji.
         </p>
         <a id="lang-more" href="index.html#boxes" class="header-btn click-boxes"
@@ -45,7 +45,7 @@
             <a id="lang-menu" class="nav-a" href="menu.html">MENI</a>
           </li>
           <li class="nav-li">
-            <a id="lang-gallery" class="nav-a" href="gallery.html">GALERIJA</a>
+            <a class="nav-a lang-gallery" href="gallery.html">GALERIJA</a>
           </li>
           <li class="nav-li click-info">
             <a id="lang-contact" class="nav-a" href="index.html#info"
@@ -81,13 +81,13 @@
         <div class="row">
           <div class="boxes-image image-1"></div>
           <div class="boxes-content">
-            <h2 id="lang-text1" class="boxes-h2">JEDINSTVEN DEKOR</h2>
-            <p class="boxes-p">
+            <h2 id="lang-header1" class="boxes-h2">JEDINSTVEN DEKOR</h2>
+            <p id="lang-text1" class="boxes-p">
               Cornelius & Cylinder je prvi Steampunk lokal u Srbiji, sa
               nesvakidašnjim i autentičnim dekorom. Provirite u magični svet
               našeg jedinstvenog ambijenta i uverite se i sami.
             </p>
-            <a href="about.html" class="boxes-btn wow flipInX">NAŠA PRIČA</a>
+            <a id="lang-story" href="about.html" class="boxes-btn wow flipInX">NAŠA PRIČA</a>
           </div>
         </div>
       </div>
@@ -95,13 +95,13 @@
       <div class="flex-container">
         <div class="row">
           <div class="boxes-content">
-            <h2 class="boxes-h2">ZELENA OAZA</h2>
-            <p class="boxes-p">
+            <h2 id="lang-header2" class="boxes-h2">ZELENA OAZA</h2>
+            <p id="lang-text2" class="boxes-p">
               Izuzetna izdvojena bašta kojoj ne smeta buka ulice. Zavirite u
               zeleni kutak jedinstvene bašte na Vračaru, provedite dan opušteno,
               sa prijateljima ili porodicom. Zelena oaza je spremna!
             </p>
-            <a href="gallery.html" class="boxes-btn wow flipInX">GALERIJA</a>
+            <a href="gallery.html" class="boxes-btn lang-gallery wow flipInX">GALERIJA</a>
           </div>
           <div class="boxes-image image-2"></div>
         </div>
@@ -111,13 +111,13 @@
         <div class="row">
           <div class="boxes-image image-3"></div>
           <div class="boxes-content">
-            <h2 class="boxes-h2">VRHUNSKI PROVOD</h2>
-            <p class="boxes-p">
+            <h2 id="lang-header3" class="boxes-h2">VRHUNSKI PROVOD</h2>
+            <p id="lang-text3" class="boxes-p">
               Prepustite se čarima našeg magičnog ambijenta i velikom izboru
               piva, koktela i vrhunskih specijaliteta, uz sjajne svirke svakog
               petka i subote. Dobrodošli u naš svet, gde nista ne nedostaje...
             </p>
-            <a href="menu.html" class="boxes-btn wow flipInX"
+            <a id="lang-menus" href="menu.html" class="boxes-btn wow flipInX"
               >MENI I KARTA PIĆA</a
             >
           </div>
@@ -128,25 +128,25 @@
     <section id="discover">
       <div class="discover-content">
         <div class="discover-item discover-food">
-          <h2 class="discover-h2 wow fadeInUp">RESTORAN</h2>
-          <p class="discover-p wow fadeInUp">
+          <h2 id="lang-restaurant" class="discover-h2 wow fadeInUp">RESTORAN</h2>
+          <p id="lang-restaurantText" class="discover-p wow fadeInUp">
             Uživajte u najukusnijim specijalitetima naše kuhinje, od svežeg
             doručka za snažan početak dana, do bifteka, više vrsta burgera,
             svinjskih rebaraca, domaćih kobasica, vedgies krompirića i još mnogo
             toga!
           </p>
-          <a href="menu.html" class="discover-btn wow fadeInUp"
+          <a id="lang-discoverMenu" href="menu.html" class="discover-btn wow fadeInUp"
             >OTKRIJ NAŠ MENI</a
           >
         </div>
         <div class="discover-item discover-drinks">
-          <h2 class="discover-h2 wow fadeInUp">KAFE-BAR</h2>
-          <p class="discover-p wow fadeInUp">
+          <h2 id="lang-caffe" class="discover-h2 wow fadeInUp">KAFE-BAR</h2>
+          <p id="lang-caffeText" class="discover-p wow fadeInUp">
             Veliki izbor kafe, ceđenih sokova, koktela i žestokih pića, kao i
             adekvatan izbor vina za svaku priliku. Za ljubitelje piva široka
             ponuda u točilići i u flašicama, preko 40 vrsta!
           </p>
-          <a href="menu-caffe.html" class="discover-btn wow fadeInUp"
+          <a  id="lang-discoverCaffeMenu" href="menu-caffe.html" class="discover-btn wow fadeInUp"
             >KARTA PIĆA</a
           >
         </div>
@@ -258,6 +258,7 @@
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/anime.min.js"></script>
     <script type="text/javascript" src="assets/js/wow.js"></script>
+    <script type="text/javascript" src="assets/js/translate-main.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
     <script type="text/javascript" src="assets/js/anime.js"></script>
   </body>
