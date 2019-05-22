@@ -9,7 +9,7 @@ setTimeout(() => {
   $("nav").show();
   $("body").css("height", "auto");
   $("html").css("height", "auto");
-}, 1000);
+}, 1500);
 
 /* REMOVE HOVER ON PHONES */
 if (screen.width < 800) {
