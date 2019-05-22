@@ -2,13 +2,14 @@
 $("nav").show();
 $("body").css("height", "100%");
 $("html").css("height", "100%");
-$(window).on("load", function() {
+
+setTimeout(() => {
   $(".loader-wrapper").fadeOut("slow");
   $(".loader-wrapper").remove();
   $("nav").show();
   $("body").css("height", "auto");
   $("html").css("height", "auto");
-});
+}, 1000);
 
 /* REMOVE HOVER ON PHONES */
 if (screen.width < 800) {
