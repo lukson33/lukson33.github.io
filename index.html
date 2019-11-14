@@ -1,264 +1,223 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Cornelius &amp; Cylinder</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=K2D|Merienda+One"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no"
-    />
-  </head>
+<html lang="en">
 
-  <body>
-    <header>
-      <div class="header-content">
-        <h1 class="header-h1">Cornelius &amp; Cylinder.</h1>
-        <p id="lang-first" class="header-p">
-          Prvi i jedini Steam Punk restoran u Srbiji.
-        </p>
-        <a id="lang-more" href="index.html#boxes" class="header-btn click-boxes"
-          >VIŠE</a
-        >
-        <a href="index.html#boxes" class="header-btn arrow-btn click-boxes"
-          ><i class="arrow fa fa-arrow-down jump" aria-hidden="true"></i
-        ></a>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Merienda&display=swap" rel="stylesheet">
+    <title>Luka Gojkovic | Front End Developer</title>
+</head>
 
-      <nav>
-        <div class="logo"><img src="assets/img/logo-krug.png" alt="" /></div>
+<body>
 
-        <ul class="nav-links">
-          <li class="nav-li">
-            <a id="lang-about" class="nav-a" href="about.html">O NAMA</a>
-          </li>
-          <li class="nav-li">
-            <a id="lang-menu" class="nav-a" href="menu.html">MENI</a>
-          </li>
-          <li class="nav-li">
-            <a class="nav-a lang-gallery" href="gallery.html">GALERIJA</a>
-          </li>
-          <li class="nav-li click-info">
-            <a id="lang-contact" class="nav-a" href="index.html#info"
-              >KONTAKT</a
-            >
-          </li>
-          <ul>
-            <li class="nav-li li-flag">
-              <a href="#eng" data-reload>
-                <span
-                  ><img class="flag" src="assets/img/flag-gb.png" alt=""/></span
-              ></a>
-            </li>
-            <li class="nav-li li-flag">
-              <a href="#rs" data-reload
-                ><span
-                  ><img class="flag" src="assets/img/flag-rs.png" alt=""/></span
-              ></a>
-            </li>
-          </ul>
-        </ul>
-
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
+    <div class="welcome">
+        <h2 class="welcome-heading">Luka Gojkovic</h2>
+        <h3 class="welcome-sub-heading">Front-End Developer</h3>
+        <div class="loader-wrapper">
+            <div class="loader"></div>
         </div>
-      </nav>
+    </div>
+
+
+    <header class="header">
+        <div class="fade" id="burger">
+            <div class="bar"></div>
+            <div class="bar-2"></div>
+            <div class="bar"></div>
+        </div>
+
+        <div class="navigation">
+            <nav class="hidden">
+                <div class="nav-content">
+                    <div id="exit">
+                        <div class="one-x"></div>
+                        <div class="two-x"></div>
+                    </div>
+
+                    <div class="nav-container fade">
+                        <a href="#" class="text click-about nav-links">ABOUT</a>
+                        <a href="#" class="text click-projects nav-links">PROJECTS</a>
+                        <a href="#" class="text click-contact nav-links">CONTACT</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="header-content">
+            <h1 class="header-h1 fade">Hello, I'm <span class="header-name"><a href="">Luka
+                        Gojković</a></span>
+            </h1>
+            <p class="fade">a web developer from a little European city called Belgrade. <br> I've loved computers since
+                I
+                was a
+                child, and
+                I'm excited to make this my life's work.</p>
+            <p class="fade">Down below are some of my projects.</p>
+            <!-- <p class="fade">Alternatively, you can download my <span><a class="header-btn" href="">résumé</a></span> -->
+            </p>
+
+            <span><a class="header-btn fade" href="https://github.com/lukson33">GitHub<i class="fa fa-github"
+                        aria-hidden="true"></i></a>
+                <a class="header-btn fade" href="https://www.linkedin.com/in/luka-gojkovic-028775140/">LinkedIn<i
+                        class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+        </div>
     </header>
 
-    <section id="boxes">
-      <div class="flex-container">
-        <div class="row">
-          <div class="boxes-image image-1"></div>
-          <div class="boxes-content">
-            <h2 id="lang-header1" class="boxes-h2">JEDINSTVEN DEKOR</h2>
-            <p id="lang-text1" class="boxes-p">
-              Cornelius & Cylinder je prvi Steampunk lokal u Srbiji, sa
-              nesvakidašnjim i autentičnim dekorom. Provirite u magični svet
-              našeg jedinstvenog ambijenta i uverite se i sami.
-            </p>
-            <a id="lang-story" href="about.html" class="boxes-btn wow flipInX">NAŠA PRIČA</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="flex-container">
-        <div class="row">
-          <div class="boxes-content">
-            <h2 id="lang-header2" class="boxes-h2">ZELENA OAZA</h2>
-            <p id="lang-text2" class="boxes-p">
-              Izuzetna izdvojena bašta kojoj ne smeta buka ulice. Zavirite u
-              zeleni kutak jedinstvene bašte na Vračaru, provedite dan opušteno,
-              sa prijateljima ili porodicom. Zelena oaza je spremna!
-            </p>
-            <a href="gallery.html" class="boxes-btn lang-gallery wow flipInX">GALERIJA</a>
-          </div>
-          <div class="boxes-image image-2"></div>
-        </div>
-      </div>
-
-      <div class="flex-container">
-        <div class="row">
-          <div class="boxes-image image-3"></div>
-          <div class="boxes-content">
-            <h2 id="lang-header3" class="boxes-h2">VRHUNSKI PROVOD</h2>
-            <p id="lang-text3" class="boxes-p">
-              Prepustite se čarima našeg magičnog ambijenta i velikom izboru
-              piva, koktela i vrhunskih specijaliteta, uz sjajne svirke svakog
-              petka i subote. Dobrodošli u naš svet, gde nista ne nedostaje...
-            </p>
-            <a id="lang-menus" href="menu.html" class="boxes-btn wow flipInX"
-              >NAŠ MENI</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="discover">
-      <div class="discover-content">
-        <div class="discover-item discover-food">
-          <h2 id="lang-restaurant" class="discover-h2 wow fadeInUp">RESTORAN</h2>
-          <p id="lang-restaurantText" class="discover-p wow fadeInUp">
-            Uživajte u najukusnijim specijalitetima naše kuhinje, od svežeg
-            doručka za snažan početak dana, do bifteka, više vrsta burgera,
-            svinjskih rebaraca, domaćih kobasica, vedgies krompirića i još mnogo
-            toga!
-          </p>
-          <a id="lang-discoverMenu" href="menu.html" class="discover-btn wow fadeInUp"
-            >OTKRIJ NAŠ JELOVNIK</a
-          >
-        </div>
-        <div class="discover-item discover-drinks">
-          <h2 id="lang-caffe" class="discover-h2 wow fadeInUp">KAFE-BAR</h2>
-          <p id="lang-caffeText" class="discover-p wow fadeInUp">
-            Veliki izbor kafe, ceđenih sokova, koktela i žestokih pića, kao i
-            adekvatan izbor vina za svaku priliku. Za ljubitelje piva široka
-            ponuda u točilići i u flašicama, preko 40 vrsta!
-          </p>
-          <a  id="lang-discoverCaffeMenu" href="menu-caffe.html" class="discover-btn wow fadeInUp"
-            >KARTA PIĆA</a
-          >
-        </div>
-      </div>
-    </section>
-
-    <section id="info">
-      <div class="flex-container">
-        <div class="info-row">
-          <div class="info-content">
-            <div class="info-text">
-              <p class="inline">4.7</p>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star-half-o" aria-hidden="true"></i>
-              <p class="inline crta">|</p>
-              <i class="fa fa-comment" aria-hidden="true"></i>
-              <p class="inline">
-                477
-                <span>reviews</span>
-              </p>
-              <h2 class="info-h2">Cornelius &amp; Cylinder</h2>
-              <p class="grey-p">restoran / kafe-bar</p>
-
-              <br />
-              <p class="info-p">
-                <span><i class="fa fa-map-marker" aria-hidden="true"></i></span
-                >Golsvordijeva 6, Beograd
-              </p>
-              <p class="info-p">
-                <span><i class="fa fa-clock-o" aria-hidden="true"></i></span
-                >08:00h - 01:00h
-              </p>
-              <p class="info-p">
-                <span><i class="fa fa-phone" aria-hidden="true"></i></span>011
-                4036499
-              </p>
-
-              <div class="logos">
-                <a href="https://www.facebook.com/cornelius.cylinder/"
-                  ><i
-                    class="fa fa-facebook-official logo
-                    aria-hidden="true"
-                  ></i
-                ></a>
-                <a href="https://twitter.com/cornelinder"
-                  ><i class="fa fa-twitter aria-hidden="true"></i
-                ></a>
-                <a href="https://www.instagram.com/cornelius_cylinder/"
-                  ><i
-                    class="fa fa-instagram
-                    aria-hidden="true"
-                  ></i
-                ></a>
-                <a
-                  href="https://www.youtube.com/channel/UCFRDbxUN5TCokmgwxwPdrXg"
-                  ><i
-                    class="fa fa-youtube-play
-                    aria-hidden="true"
-                  ></i
-                ></a>
-              </div>
+    <section id="about">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="img/slika.jpg" alt="">
             </div>
-          </div>
 
-          <div class="info-mapa">
-            <iframe
-              class="mapa"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.937302455145!2d20.473573215535374!3d44.80246637909865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9fdb7d2a55%3A0x8787a63d289e96f5!2sCornelius+%26+Cylinder!5e0!3m2!1ssr!2srs!4v1535113040000"
-              style="border:0"
-              allowfullscreen
-            ></iframe>
-          </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+
+                <p> I have a passion for coding, animations and creating intuitive, dynamic user experiences. In my free
+                    time I like to learn new technologies, listen to music, play video games, and binge an occasional tv
+                    show.
+                    I'm a big motorsports guy as well.
+                </p>
+                <p>I'm currently working on completing my bachelor's degree in computer multimedia at ITS in Belgrade.
+                </p>
+
+                <div class="about-skills">
+                    <h3>My Skills</h3>
+                    <p>Programming</p>
+                    <div class="project-icons-0">
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>HTML</p>
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>CSS</p>
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>SASS</p>
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>JavaScript</p>
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>React</p>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <p>Tools / Design</p>
+                    <div class="project-icons-0">
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>Git / Github</p>
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>Photoshop</p>
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>Illustrator</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
-    <footer>
-      <div class="footer-logos">
-        <a class="footer-a" href="https://www.facebook.com/cornelius.cylinder/"
-          ><i class="fa fa-facebook-official" aria-hidden="true"></i
-        ></a>
-        <a
-          class="footer-a"
-          href="https://www.tripadvisor.com/Attraction_Review-g294472-d13219305-Reviews-Cornelius_Cylinder-Belgrade.html"
-          ><i class="fa fa-tripadvisor" aria-hidden="true"></i
-        ></a>
-        <a class="footer-a" href="https://twitter.com/cornelinder"
-          ><i class="fa fa-twitter" aria-hidden="true"></i
-        ></a>
-        <a class="footer-a" href="https://www.instagram.com/cornelius_cylinder/"
-          ><i class="fa fa-instagram" aria-hidden="true"></i
-        ></a>
-        <!-- <a class="footer-a" href="https://www.youtube.com/channel/UCFRDbxUN5TCokmgwxwPdrXg"><i class="fa fa-youtube-play"
-            aria-hidden="true"></i></a> -->
+    <section id="projects">
+        <div class="project project-1">
+            <div class="project-content">
+                <div class="project-img wow fadeInUp">
+                    <a href="https://cornelius-cylinder.com" target="_blank"><img src="img/Screenshot (1).png"
+                            alt=""></a>
+                </div>
 
-        <p class="footer-p">Cornelius &amp; Cylinder &copy; 2019.</p>
-      </div>
+                <div class="project-text">
+                    <h3>Cornelius & Cylinder</h3>
+                    <p>This is a full website that I did for a restaurant in Belgrade called Cornelius & Cylinder.</p>
+
+                    <p>This website has a main page with all the information about
+                        the restaurant, as well as an interactive Menu Page with food photos, and a picture gallery.</p>
+
+                    <div class="project-icons-1">
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>HTML</p>
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>CSS</p>
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>JavaScript</p>
+                    </div>
+
+                    <a class="view-code-1" href="https://github.com/lukson33/lukson33.github.io" target="_blank">View <i
+                            class="fa fa-eye" aria-hidden="true"></i></a>
+
+                    <a class="view-code-1" href="https://cornelius-cylinder.com" target="_blank">Code <i
+                            class="fa fa-code" aria-hidden="true"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="project project-2">
+            <div class="project-content">
+
+                <div class="project-text">
+                    <h3>Movie React App</h3>
+                    <p>A fun little game I made with a DadJokes API to further practice React and Javascript.</p>
+
+                    <p>This app has a joke upvoting system similar to Reddit which user can interact with as well as
+                        a
+                        button for loading new jokes.</p>
+
+                    <div class="project-icons-2">
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>HTML</p>
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>CSS</p>
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>JavaScript</p>
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>React</p>
+                    </div>
+
+                    <a class="view-code-2" href="https://nifty-morse-e42fec.netlify.com" target="_blank">View <i
+                            class="fa fa-eye" aria-hidden="true"></i></a>
+                    <a class="view-code-2" href="https://github.com/lukson33/movie-app" target="_blank">Code <i
+                            class="fa fa-code" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="wow fadeInUp project-img">
+                    <a href="https://nifty-morse-e42fec.netlify.com" target="_blank"><img src="img/Screenshot (4).png"
+                            alt=""></a>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="project project-3">
+            <div class="project-content">
+
+                <div class="project-img wow fadeInUp">
+                    <a href="https://youthful-elion-59fcb5.netlify.com/" target="_blank"><img
+                            src="img/Screenshot (2).png" alt=""></a>
+                </div>
+
+                <div class="project-text project-text-mr">
+                    <h3>Todo App with React Hooks</h3>
+                    <p>Todo list application I built with a Javascript framework React.</p>
+
+                    <p>I built this while learning React to solidify my knowledge and to practice a new React
+                        technology, React Hooks.</p>
+
+                    <div class="project-icons-3">
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>HTML</p>
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>CSS</p>
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>JavaScript</p>
+                        <p><i class="fa fa-circle" aria-hidden="true"></i>React</p>
+                    </div>
+                    <a class="view-code-3" href="https://youthful-elion-59fcb5.netlify.com/" target="_blank">View <i
+                            class="fa fa-eye" aria-hidden="true"></i></a>
+                    <a class="view-code-3" href="https://github.com/lukson33/hooks-todo" target="_blank">Code <i
+                            class="fa fa-code" aria-hidden="true"></i></a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h3>Contact Me</h3>
+        <div class="icon-container">
+            <a class="icon" href="https://github.com/lukson33"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a class="icon" href="https://www.linkedin.com/in/luka-gojkovic-028775140/"><i class="fa fa-linkedin"
+                    aria-hidden="true"></i></a>
+            <a class="icon" href="mailto:luka.gojkovic33@gmail.com?Subject=Hello%20again"><i class="fa fa-envelope-o"
+                    aria-hidden="true"></i></a>
+        </div>
     </footer>
 
-    <div class="loader-wrapper">
-      <span class="loader"><span class="loader-inner"></span></span>
-    </div>
-    
 
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-    <script src="assets/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/wow.js"></script>
-    <script type="text/javascript" src="assets/js/translate-main.js"></script>
-    <script type="text/javascript" src="assets/js/app.js"></script>
-    
-  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
 </html>
