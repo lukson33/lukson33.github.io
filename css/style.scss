@@ -613,7 +613,7 @@ footer {
   }
 
   #about {
-    height: 165vh;
+    height: 170vh;
 
     .about-container {
       flex-direction: column;
@@ -824,12 +824,12 @@ footer {
 
 @media only screen and (min-height: 770px) {
   #about {
-    height: 145vh;
+    height: 140vh;
   }
 }
 
 @media only screen and (min-height: 840px) {
   #about {
-    height: 90vh;
+    height: 150vh;
   }
 }
