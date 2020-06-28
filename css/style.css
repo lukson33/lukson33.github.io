@@ -665,7 +665,7 @@ footer .icon-container .icon:last-child {
     max-width: 65% !important;
   }
   #about {
-    height: 165vh;
+    height: 170vh;
   }
   #about .about-container {
     -webkit-box-orient: vertical;
@@ -874,13 +874,13 @@ footer .icon-container .icon:last-child {
 
 @media only screen and (min-height: 770px) {
   #about {
-    height: 145vh;
+    height: 140vh;
   }
 }
 
 @media only screen and (min-height: 840px) {
   #about {
-    height: 90vh;
+    height: 150vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
