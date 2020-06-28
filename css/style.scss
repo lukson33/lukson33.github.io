@@ -613,7 +613,7 @@ footer {
   }
 
   #about {
-    height: 170vh;
+    height: 155vh;
 
     .about-container {
       flex-direction: column;
@@ -780,7 +780,7 @@ footer {
 
 @media only screen and (max-width: 400px) {
   #about {
-    height: 175vh;
+    height: 170vh;
   }
 }
 
@@ -822,14 +822,14 @@ footer {
   }
 }
 
-@media only screen and (min-height: 770px) {
-  #about {
-    height: 140vh;
-  }
-}
+// @media only screen and (min-height: 770px) {
+//   #about {
+//     height: 140vh;
+//   }
+// }
 
-@media only screen and (min-height: 840px) {
-  #about {
-    height: 150vh;
-  }
-}
+// @media only screen and (min-height: 840px) {
+//   #about {
+//     height: 150vh;
+//   }
+// }
