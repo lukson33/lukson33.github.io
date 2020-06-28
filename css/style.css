@@ -665,7 +665,7 @@ footer .icon-container .icon:last-child {
     max-width: 65% !important;
   }
   #about {
-    height: 170vh;
+    height: 155vh;
   }
   #about .about-container {
     -webkit-box-orient: vertical;
@@ -835,7 +835,7 @@ footer .icon-container .icon:last-child {
 
 @media only screen and (max-width: 400px) {
   #about {
-    height: 175vh;
+    height: 170vh;
   }
 }
 
@@ -869,18 +869,6 @@ footer .icon-container .icon:last-child {
   }
   .header-btn {
     margin-bottom: 1rem;
-  }
-}
-
-@media only screen and (min-height: 770px) {
-  #about {
-    height: 140vh;
-  }
-}
-
-@media only screen and (min-height: 840px) {
-  #about {
-    height: 150vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
