@@ -28,7 +28,7 @@ burger.addEventListener("click", () => {
   text.forEach((t, i) => {
     if (t.style.animation) {
       t.style.animation = "";
-      setTimeout(function() {
+      setTimeout(function () {
         burger.classList.remove("absolute");
       }, 300);
     } else {
@@ -41,22 +41,22 @@ burger.addEventListener("click", () => {
 
 exit.addEventListener("click", () => {
   nav.classList.add("hidden");
-  setTimeout(function() {
+  setTimeout(function () {
     nav.classList.remove("fixed");
     burger.classList.remove("z-index-toggle");
     burger.classList.remove("absolute");
-    text.forEach(t => (t.style.animation = ""));
+    text.forEach((t) => (t.style.animation = ""));
   }, 300);
 });
 
-text.forEach(t =>
+text.forEach((t) =>
   t.addEventListener("click", () => {
     nav.classList.remove("fixed");
     if (window.innerWidth < 800) {
       nav.classList.add("hidden");
     }
 
-    text.forEach(t => (t.style.animation = ""));
+    text.forEach((t) => (t.style.animation = ""));
   })
 );
 
@@ -71,20 +71,20 @@ document.addEventListener("DOMContentLoaded", () => {
   anime
     .timeline({
       targets: ".welcome",
-      easing: "easeOutExpo"
+      easing: "easeOutExpo",
     })
     .add({
       opacity: 1,
-      duration: 1200
+      duration: 1200,
     })
     .add({
       delay: 2700,
       translateX: "100vw",
       duration: 1500,
-      complete: function(anime) {
+      complete: function (anime) {
         document.querySelector(".welcome").remove();
         html.classList.remove("disable-scroll");
-      }
+      },
     });
 
   anime({
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
     delay: 400,
     opacity: 1,
     duration: 1800,
-    easing: "easeOutExpo"
+    easing: "easeOutExpo",
   });
 
   // Heading animation
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
     opacity: 1,
     duration: 1800,
     translateY: ["-30px", "0"],
-    easing: "easeOutExpo"
+    easing: "easeOutExpo",
   });
 
   // Subheading animation
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
     opacity: 1,
     duration: 1800,
     translateY: ["-30px", "0"],
-    easing: "easeOutExpo"
+    easing: "easeOutExpo",
   });
 
   // Loader wrapper animation
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
     opacity: 1,
     easing: "easeOutExpo",
     duration: 2000,
-    delay: 1200
+    delay: 1200,
   });
 
   // Loader animation
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
     easing: "easeOutExpo",
     duration: 2500,
     delay: 2000,
-    width: ["0%", "100%"]
+    width: ["0%", "100%"],
   });
 
   // Header animation
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", () => {
     easing: "easeOutExpo",
     duration: 2300,
     delay: (el, i) => 5200 + 200 * i,
-    translateY: ["-15px", "0px"]
+    translateY: ["-15px", "0px"],
   });
 
   anime({
@@ -150,33 +150,33 @@ document.addEventListener("DOMContentLoaded", () => {
     easing: "easeOutExpo",
     duration: 2300,
     delay: (el, i) => 5200 + 200 * i,
-    translateY: ["-15px", "0px"]
+    translateY: ["-15px", "0px"],
   });
 });
 
 //Navigation scrolling
-$(".click-about").click(function() {
+$(".click-about").click(function () {
   $("html,body").animate(
     {
-      scrollTop: $("#about").offset().top
+      scrollTop: $("#about").offset().top,
     },
     "slow"
   );
 });
 
-$(".click-projects").click(function() {
+$(".click-projects").click(function () {
   $("html,body").animate(
     {
-      scrollTop: $("#projects").offset().top
+      scrollTop: $("#projects").offset().top,
     },
     "slow"
   );
 });
 
-$(".click-contact").click(function() {
+$(".click-contact").click(function () {
   $("html,body").animate(
     {
-      scrollTop: $("#contact").offset().top
+      scrollTop: $("#contact").offset().top,
     },
     "slow"
   );

@@ -341,52 +341,36 @@ nav {
 }
 
 //Projects
+#projects {
+  background: #0f2027;
+
+  h2 {
+    font-size: 4.5rem;
+    padding-top: 7rem;
+    color: #fff;
+    text-align: center;
+  }
+}
+
 .project {
-  padding: 16rem 0;
-  &-1 {
-    background: #0f2027;
-    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364);
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-  }
-
-  &-2 {
-    background: #0f0c29; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to left,
-      #24243e,
-      #302b63,
-      #0f0c29
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to left,
-      #24243e,
-      #302b63,
-      #0f0c29
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
-
-  &-3 {
-    background: #141e30; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #243b55,
-      #141e30
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #243b55,
-      #141e30
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
+  padding: 8rem 0;
+  width: 75%;
+  margin: 0 auto;
+  background: #0f2027;
+  // background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  // background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  display: flex;
 
   &-content {
     display: flex;
-    width: 65%;
+    flex: 1;
     margin: 0 auto;
+    flex-direction: column;
+    padding: 0 7rem;
   }
 
   &-img {
-    margin-right: 5rem;
+    margin-bottom: 3rem;
 
     a:hover img {
       transform: translateY(-5px);
@@ -403,53 +387,18 @@ nav {
   &-text {
     color: #fff;
     margin-right: 2rem;
-    width: 150%;
 
-    .view-code-1 {
+    .view-code {
       padding: 1rem 2rem;
       border-radius: 3px;
       background-color: rgb(8, 146, 146);
       font-size: 2rem;
       display: inline-block;
       transition: 0.3s all;
-      margin: 0 1rem 1.5rem 0;
+      margin: 1rem 1rem 1.5rem 0;
 
       &:hover {
         background-color: rgb(5, 105, 105);
-        -webkit-box-shadow: 5px 5px 5px -4px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 5px 5px 5px -4px rgba(0, 0, 0, 0.75);
-        box-shadow: 5px 5px 5px -4px rgba(0, 0, 0, 0.75);
-      }
-    }
-
-    .view-code-2 {
-      padding: 1rem 2rem;
-      border-radius: 3px;
-      background-color: rgb(170, 106, 255);
-      font-size: 2rem;
-      display: inline-block;
-      transition: 0.3s all;
-      margin: 0 1rem 1.5rem 0;
-
-      &:hover {
-        background-color: rgb(120, 58, 201);
-        -webkit-box-shadow: 5px 5px 5px -4px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 5px 5px 5px -4px rgba(0, 0, 0, 0.75);
-        box-shadow: 5px 5px 5px -4px rgba(0, 0, 0, 0.75);
-      }
-    }
-
-    .view-code-3 {
-      padding: 1rem 2rem;
-      border-radius: 3px;
-      background-color: rgb(50, 165, 241);
-      font-size: 2rem;
-      display: inline-block;
-      transition: 0.3s all;
-      margin: 0 1rem 1.5rem 0;
-
-      &:hover {
-        background-color: rgb(15, 97, 151);
         -webkit-box-shadow: 5px 5px 5px -4px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 5px 5px 5px -4px rgba(0, 0, 0, 0.75);
         box-shadow: 5px 5px 5px -4px rgba(0, 0, 0, 0.75);
@@ -486,39 +435,16 @@ nav {
 
   &-icons-1 {
     display: flex;
+    flex-wrap: wrap;
 
     p {
       margin-right: 2.5rem;
+      margin-bottom: 0;
+      padding: 0.5rem;
 
       i {
         margin-right: 0.7rem;
         color: rgb(35, 255, 255);
-      }
-    }
-  }
-
-  &-icons-2 {
-    display: flex;
-
-    p {
-      margin-right: 2.5rem;
-
-      i {
-        margin-right: 0.3rem;
-        color: rgb(170, 106, 255);
-      }
-    }
-  }
-
-  &-icons-3 {
-    display: flex;
-
-    p {
-      margin-right: 2.5rem;
-
-      i {
-        margin-right: 0.7rem;
-        color: rgb(50, 165, 241);
       }
     }
   }
