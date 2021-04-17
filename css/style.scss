@@ -503,6 +503,12 @@ footer {
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .project {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   nav {
     .nav-content {
@@ -519,8 +525,14 @@ footer {
 
 @media only screen and (max-width: 840px) {
   .project {
-    padding: 8rem 0;
+    padding: 0;
+    flex-direction: column;
+
+    &-content {
+      padding: 5rem 0;
+    }
   }
+
   .nav {
     display: flex;
     justify-content: center;
@@ -671,10 +683,6 @@ footer {
   .welcome-sub-heading {
     font-size: 2.5rem;
   }
-
-  .project-img img {
-    max-width: 130%;
-  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -752,15 +760,3 @@ footer {
     margin-bottom: 1rem;
   }
 }
-
-// @media only screen and (min-height: 770px) {
-//   #about {
-//     height: 140vh;
-//   }
-// }
-
-// @media only screen and (min-height: 840px) {
-//   #about {
-//     height: 150vh;
-//   }
-// }
